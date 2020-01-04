@@ -33,6 +33,9 @@ $ make flash, you could have skipped make all/make and used make flash directly 
 If your device is connected to your system while executing make flash, it will start the JLinkExe and will ask you to type in commands for further process.
 You do not need to fill the device information, it will be filled from Makefile itself.
 
+JLink will prompt you to type connect, simply type connect as follows:
+> connect, It will connect your device to host system. From here you can follow the further process.
+
 Commands are as follows:
 
 1. erase:		first erase the current flashed code from memory
