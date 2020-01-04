@@ -2,6 +2,11 @@
 This repository contains steps to use linux environemnt for ARM development.
 
 
+You need ARM GNU toolchain for compilation and build which can be downloaded from ARM official website and JLink pack.
+
+Version used - gcc-arm-none-eabi-7-2018-q2-update
+
+
 Steps used to build executable using Makefile are as follows:
 
 1. make all / make: build project executables
