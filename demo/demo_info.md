@@ -1,4 +1,4 @@
-# Demo project done in lunux environment
+# Demo project done in linux environment for ARM Cortex M4
 
 This demo project contains simple led blinking using Systick interrupt for every specific interval in C and C++ environment.
 
