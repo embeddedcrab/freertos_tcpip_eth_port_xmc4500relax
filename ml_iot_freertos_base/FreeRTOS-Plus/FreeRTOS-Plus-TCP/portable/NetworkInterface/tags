@@ -1,0 +1,901 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_SIZE	STM32Fxx/stm32f4xx_hal_eth.c	116;"	d	file:
+ARRAY_SIZE	STM32Fxx/stm32fxx_hal_eth.c	132;"	d	file:
+AUTONEGO_COMPLETED_TIMEOUT_VALUE	STM32Fxx/stm32f4xx_hal_eth.c	129;"	d	file:
+AddressAlignedBeats	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             AddressAlignedBeats;         \/*!< Enables or disables the Address Aligned Beats.$/;"	m	struct:__anon4
+AutoNegotiation	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             AutoNegotiation;           \/*!< Selects or not the AutoNegotiation mode for the external PHY$/;"	m	struct:__anon2
+AutomaticPadCRCStrip	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             AutomaticPadCRCStrip;      \/*!< Selects or not the Automatic MAC Pad\/CRC Stripping.$/;"	m	struct:__anon3
+BackOffLimit	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             BackOffLimit;              \/*!< Selects the BackOff limit value.$/;"	m	struct:__anon3
+BroadcastFramesReception	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             BroadcastFramesReception;  \/*!< Selects or not the reception of Broadcast Frames.$/;"	m	struct:__anon3
+Buffer1Addr	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   Buffer1Addr;           \/*!< Buffer1 address pointer *\/$/;"	m	struct:__anon5
+Buffer2NextDescAddr	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   Buffer2NextDescAddr;   \/*!< Buffer2 or next descriptor address pointer *\/$/;"	m	struct:__anon5
+CarrierSense	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             CarrierSense;              \/*!< Selects or not the Carrier Sense.$/;"	m	struct:__anon3
+ChecksumMode	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ChecksumMode;              \/*!< Selects if the checksum is check by hardware or by software.$/;"	m	struct:__anon2
+ChecksumOffload	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ChecksumOffload;           \/*!< Selects or not the IPv4 checksum checking for received frame payloads' TCP\/UDP\/ICMP headers.$/;"	m	struct:__anon3
+ControlBufferSize	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   ControlBufferSize;     \/*!< Control and Buffer1, Buffer2 lengths *\/$/;"	m	struct:__anon5
+DMAArbitration	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             DMAArbitration;              \/*!< Selects the DMA Tx\/Rx arbitration.$/;"	m	struct:__anon4
+DMARxDscrTab	STM32Fxx/NetworkInterface.c	/^	ETH_DMADescTypeDef  DMARxDscrTab[ ETH_RXBUFNB ];$/;"	v
+DMATxDescToClear	STM32Fxx/NetworkInterface.c	/^	static __IO ETH_DMADescTypeDef  *DMATxDescToClear;$/;"	v	file:
+DMATxDscrTab	STM32Fxx/NetworkInterface.c	/^	ETH_DMADescTypeDef  DMATxDscrTab[ ETH_TXBUFNB ];$/;"	v
+DeferralCheck	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             DeferralCheck;             \/*!< Selects or not the deferral check function (Half-Duplex mode).$/;"	m	struct:__anon3
+DescriptorSkipLength	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             DescriptorSkipLength;        \/*!< Specifies the number of word to skip between two unchained descriptors (Ring mode)$/;"	m	struct:__anon4
+DestinationAddrFilter	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             DestinationAddrFilter;     \/*!< Sets the destination filter mode for both unicast and multicast frames.$/;"	m	struct:__anon3
+DropTCPIPChecksumErrorFrame	STM32Fxx/stm32fxx_hal_eth.h	/^ uint32_t              DropTCPIPChecksumErrorFrame; \/*!< Selects or not the Dropping of TCP\/IP Checksum Error Frames.$/;"	m	struct:__anon4
+DuplexMode	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             DuplexMode;                \/*!< Selects the MAC duplex mode: Half-Duplex or Full-Duplex mode$/;"	m	struct:__anon2
+EMAC_IF_ALL_EVENT	LPC18xx/NetworkInterface.c	120;"	d	file:
+EMAC_IF_ALL_EVENT	STM32Fxx/NetworkInterface.c	72;"	d	file:
+EMAC_IF_ERR_EVENT	LPC18xx/NetworkInterface.c	119;"	d	file:
+EMAC_IF_ERR_EVENT	STM32Fxx/NetworkInterface.c	71;"	d	file:
+EMAC_IF_RX_EVENT	LPC18xx/NetworkInterface.c	117;"	d	file:
+EMAC_IF_RX_EVENT	STM32Fxx/NetworkInterface.c	69;"	d	file:
+EMAC_IF_TX_EVENT	LPC18xx/NetworkInterface.c	118;"	d	file:
+EMAC_IF_TX_EVENT	STM32Fxx/NetworkInterface.c	70;"	d	file:
+ENET_IRQHandler	LPC17xx/NetworkInterface.c	/^void ENET_IRQHandler( void )$/;"	f
+ETH_ADDRESSALIGNEDBEATS_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1371;"	d
+ETH_ADDRESSALIGNEDBEATS_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1370;"	d
+ETH_AUTOMATICPADCRCSTRIP_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1053;"	d
+ETH_AUTOMATICPADCRCSTRIP_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1052;"	d
+ETH_AUTONEGOTIATION_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	922;"	d
+ETH_AUTONEGOTIATION_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	921;"	d
+ETH_BACKOFFLIMIT_1	STM32Fxx/stm32fxx_hal_eth.h	1064;"	d
+ETH_BACKOFFLIMIT_10	STM32Fxx/stm32fxx_hal_eth.h	1061;"	d
+ETH_BACKOFFLIMIT_4	STM32Fxx/stm32fxx_hal_eth.h	1063;"	d
+ETH_BACKOFFLIMIT_8	STM32Fxx/stm32fxx_hal_eth.h	1062;"	d
+ETH_BROADCASTFRAMESRECEPTION_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1111;"	d
+ETH_BROADCASTFRAMESRECEPTION_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1110;"	d
+ETH_CARRIERSENCE_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1008;"	d
+ETH_CARRIERSENCE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1007;"	d
+ETH_CHECKSUMOFFLAOD_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1035;"	d
+ETH_CHECKSUMOFFLAOD_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1034;"	d
+ETH_CHECKSUM_BY_HARDWARE	STM32Fxx/stm32fxx_hal_eth.h	956;"	d
+ETH_CHECKSUM_BY_SOFTWARE	STM32Fxx/stm32fxx_hal_eth.h	957;"	d
+ETH_CRC	STM32Fxx/stm32fxx_hal_eth.h	673;"	d
+ETH_DEFFERRALCHECK_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1073;"	d
+ETH_DEFFERRALCHECK_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1072;"	d
+ETH_DESTINATIONADDRFILTER_INVERSE	STM32Fxx/stm32fxx_hal_eth.h	1120;"	d
+ETH_DESTINATIONADDRFILTER_NORMAL	STM32Fxx/stm32fxx_hal_eth.h	1119;"	d
+ETH_DMAARBITRATION_ROUNDROBIN_RXTX_1_1	STM32Fxx/stm32fxx_hal_eth.h	1435;"	d
+ETH_DMAARBITRATION_ROUNDROBIN_RXTX_2_1	STM32Fxx/stm32fxx_hal_eth.h	1436;"	d
+ETH_DMAARBITRATION_ROUNDROBIN_RXTX_3_1	STM32Fxx/stm32fxx_hal_eth.h	1437;"	d
+ETH_DMAARBITRATION_ROUNDROBIN_RXTX_4_1	STM32Fxx/stm32fxx_hal_eth.h	1438;"	d
+ETH_DMAARBITRATION_RXPRIORTX	STM32Fxx/stm32fxx_hal_eth.h	1439;"	d
+ETH_DMADescTypeDef	STM32Fxx/stm32fxx_hal_eth.h	/^} ETH_DMADescTypeDef;$/;"	t	typeref:struct:__anon5
+ETH_DMAENHANCEDDESCRIPTOR_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1427;"	d
+ETH_DMAENHANCEDDESCRIPTOR_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1426;"	d
+ETH_DMAInitTypeDef	STM32Fxx/stm32fxx_hal_eth.h	/^} ETH_DMAInitTypeDef;$/;"	t	typeref:struct:__anon4
+ETH_DMAOMR_CLEAR_MASK	STM32Fxx/stm32fxx_hal_eth.h	359;"	d
+ETH_DMAPTPRXDESC_IPCB	STM32Fxx/stm32fxx_hal_eth.h	902;"	d
+ETH_DMAPTPRXDESC_IPHE	STM32Fxx/stm32fxx_hal_eth.h	904;"	d
+ETH_DMAPTPRXDESC_IPPE	STM32Fxx/stm32fxx_hal_eth.h	903;"	d
+ETH_DMAPTPRXDESC_IPPT	STM32Fxx/stm32fxx_hal_eth.h	905;"	d
+ETH_DMAPTPRXDESC_IPPT_ICMP	STM32Fxx/stm32fxx_hal_eth.h	908;"	d
+ETH_DMAPTPRXDESC_IPPT_TCP	STM32Fxx/stm32fxx_hal_eth.h	907;"	d
+ETH_DMAPTPRXDESC_IPPT_UDP	STM32Fxx/stm32fxx_hal_eth.h	906;"	d
+ETH_DMAPTPRXDESC_IPV4PR	STM32Fxx/stm32fxx_hal_eth.h	901;"	d
+ETH_DMAPTPRXDESC_IPV6PR	STM32Fxx/stm32fxx_hal_eth.h	900;"	d
+ETH_DMAPTPRXDESC_PTPFT	STM32Fxx/stm32fxx_hal_eth.h	891;"	d
+ETH_DMAPTPRXDESC_PTPMT	STM32Fxx/stm32fxx_hal_eth.h	892;"	d
+ETH_DMAPTPRXDESC_PTPMT_DELAYREQ	STM32Fxx/stm32fxx_hal_eth.h	895;"	d
+ETH_DMAPTPRXDESC_PTPMT_DELAYRESP	STM32Fxx/stm32fxx_hal_eth.h	896;"	d
+ETH_DMAPTPRXDESC_PTPMT_FOLLOWUP	STM32Fxx/stm32fxx_hal_eth.h	894;"	d
+ETH_DMAPTPRXDESC_PTPMT_PDELAYREQ_ANNOUNCE	STM32Fxx/stm32fxx_hal_eth.h	897;"	d
+ETH_DMAPTPRXDESC_PTPMT_PDELAYRESPFOLLOWUP_SIGNAL	STM32Fxx/stm32fxx_hal_eth.h	899;"	d
+ETH_DMAPTPRXDESC_PTPMT_PDELAYRESP_MANAG	STM32Fxx/stm32fxx_hal_eth.h	898;"	d
+ETH_DMAPTPRXDESC_PTPMT_SYNC	STM32Fxx/stm32fxx_hal_eth.h	893;"	d
+ETH_DMAPTPRXDESC_PTPV	STM32Fxx/stm32fxx_hal_eth.h	890;"	d
+ETH_DMAPTPRXDESC_RTSH	STM32Fxx/stm32fxx_hal_eth.h	914;"	d
+ETH_DMAPTPRXDESC_RTSL	STM32Fxx/stm32fxx_hal_eth.h	911;"	d
+ETH_DMAPTPTXDESC_TTSH	STM32Fxx/stm32fxx_hal_eth.h	815;"	d
+ETH_DMAPTPTXDESC_TTSL	STM32Fxx/stm32fxx_hal_eth.h	812;"	d
+ETH_DMARXDESC_AFM	STM32Fxx/stm32fxx_hal_eth.h	841;"	d
+ETH_DMARXDESC_B1AP	STM32Fxx/stm32fxx_hal_eth.h	872;"	d
+ETH_DMARXDESC_B2AP	STM32Fxx/stm32fxx_hal_eth.h	877;"	d
+ETH_DMARXDESC_BUFFER1	STM32Fxx/stm32fxx_hal_eth.h	1467;"	d
+ETH_DMARXDESC_BUFFER2	STM32Fxx/stm32fxx_hal_eth.h	1468;"	d
+ETH_DMARXDESC_BUFFER2_SIZESHIFT	STM32Fxx/stm32fxx_hal_eth.h	340;"	d
+ETH_DMARXDESC_CE	STM32Fxx/stm32fxx_hal_eth.h	857;"	d
+ETH_DMARXDESC_DBE	STM32Fxx/stm32fxx_hal_eth.h	856;"	d
+ETH_DMARXDESC_DE	STM32Fxx/stm32fxx_hal_eth.h	844;"	d
+ETH_DMARXDESC_DIC	STM32Fxx/stm32fxx_hal_eth.h	863;"	d
+ETH_DMARXDESC_ES	STM32Fxx/stm32fxx_hal_eth.h	843;"	d
+ETH_DMARXDESC_FL	STM32Fxx/stm32fxx_hal_eth.h	842;"	d
+ETH_DMARXDESC_FRAMELENGTHSHIFT	STM32Fxx/stm32fxx_hal_eth.h	343;"	d
+ETH_DMARXDESC_FRAME_LENGTHSHIFT	STM32Fxx/stm32fxx_hal_eth.h	337;"	d
+ETH_DMARXDESC_FS	STM32Fxx/stm32fxx_hal_eth.h	849;"	d
+ETH_DMARXDESC_FT	STM32Fxx/stm32fxx_hal_eth.h	853;"	d
+ETH_DMARXDESC_IPV4HCE	STM32Fxx/stm32fxx_hal_eth.h	851;"	d
+ETH_DMARXDESC_LC	STM32Fxx/stm32fxx_hal_eth.h	852;"	d
+ETH_DMARXDESC_LE	STM32Fxx/stm32fxx_hal_eth.h	846;"	d
+ETH_DMARXDESC_LS	STM32Fxx/stm32fxx_hal_eth.h	850;"	d
+ETH_DMARXDESC_MAMPCE	STM32Fxx/stm32fxx_hal_eth.h	858;"	d
+ETH_DMARXDESC_OE	STM32Fxx/stm32fxx_hal_eth.h	847;"	d
+ETH_DMARXDESC_OWN	STM32Fxx/stm32fxx_hal_eth.h	840;"	d
+ETH_DMARXDESC_RBS1	STM32Fxx/stm32fxx_hal_eth.h	867;"	d
+ETH_DMARXDESC_RBS2	STM32Fxx/stm32fxx_hal_eth.h	864;"	d
+ETH_DMARXDESC_RCH	STM32Fxx/stm32fxx_hal_eth.h	866;"	d
+ETH_DMARXDESC_RE	STM32Fxx/stm32fxx_hal_eth.h	855;"	d
+ETH_DMARXDESC_RER	STM32Fxx/stm32fxx_hal_eth.h	865;"	d
+ETH_DMARXDESC_RWT	STM32Fxx/stm32fxx_hal_eth.h	854;"	d
+ETH_DMARXDESC_SAF	STM32Fxx/stm32fxx_hal_eth.h	845;"	d
+ETH_DMARXDESC_VLAN	STM32Fxx/stm32fxx_hal_eth.h	848;"	d
+ETH_DMAReceptionDisable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_DMAReceptionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMAReceptionDisable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_DMAReceptionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMAReceptionEnable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_DMAReceptionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMAReceptionEnable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_DMAReceptionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMARxFrameInfos	STM32Fxx/stm32fxx_hal_eth.h	/^} ETH_DMARxFrameInfos;$/;"	t	typeref:struct:__anon6
+ETH_DMATXDESC_B1AP	STM32Fxx/stm32fxx_hal_eth.h	798;"	d
+ETH_DMATXDESC_B2AP	STM32Fxx/stm32fxx_hal_eth.h	803;"	d
+ETH_DMATXDESC_BUFFER2_SIZESHIFT	STM32Fxx/stm32fxx_hal_eth.h	334;"	d
+ETH_DMATXDESC_CC	STM32Fxx/stm32fxx_hal_eth.h	784;"	d
+ETH_DMATXDESC_CHECKSUMBYPASS	STM32Fxx/stm32fxx_hal_eth.h	1456;"	d
+ETH_DMATXDESC_CHECKSUMIPV4HEADER	STM32Fxx/stm32fxx_hal_eth.h	1457;"	d
+ETH_DMATXDESC_CHECKSUMTCPUDPICMPFULL	STM32Fxx/stm32fxx_hal_eth.h	1459;"	d
+ETH_DMATXDESC_CHECKSUMTCPUDPICMPSEGMENT	STM32Fxx/stm32fxx_hal_eth.h	1458;"	d
+ETH_DMATXDESC_CIC	STM32Fxx/stm32fxx_hal_eth.h	766;"	d
+ETH_DMATXDESC_CIC_BYPASS	STM32Fxx/stm32fxx_hal_eth.h	767;"	d
+ETH_DMATXDESC_CIC_IPV4HEADER	STM32Fxx/stm32fxx_hal_eth.h	768;"	d
+ETH_DMATXDESC_CIC_TCPUDPICMP_FULL	STM32Fxx/stm32fxx_hal_eth.h	770;"	d
+ETH_DMATXDESC_CIC_TCPUDPICMP_SEGMENT	STM32Fxx/stm32fxx_hal_eth.h	769;"	d
+ETH_DMATXDESC_COLLISION_COUNTSHIFT	STM32Fxx/stm32fxx_hal_eth.h	331;"	d
+ETH_DMATXDESC_DB	STM32Fxx/stm32fxx_hal_eth.h	787;"	d
+ETH_DMATXDESC_DC	STM32Fxx/stm32fxx_hal_eth.h	763;"	d
+ETH_DMATXDESC_DP	STM32Fxx/stm32fxx_hal_eth.h	764;"	d
+ETH_DMATXDESC_EC	STM32Fxx/stm32fxx_hal_eth.h	782;"	d
+ETH_DMATXDESC_ED	STM32Fxx/stm32fxx_hal_eth.h	785;"	d
+ETH_DMATXDESC_ES	STM32Fxx/stm32fxx_hal_eth.h	775;"	d
+ETH_DMATXDESC_FF	STM32Fxx/stm32fxx_hal_eth.h	777;"	d
+ETH_DMATXDESC_FIRSTSEGMENT	STM32Fxx/stm32fxx_hal_eth.h	1448;"	d
+ETH_DMATXDESC_FS	STM32Fxx/stm32fxx_hal_eth.h	762;"	d
+ETH_DMATXDESC_IC	STM32Fxx/stm32fxx_hal_eth.h	760;"	d
+ETH_DMATXDESC_IHE	STM32Fxx/stm32fxx_hal_eth.h	774;"	d
+ETH_DMATXDESC_JT	STM32Fxx/stm32fxx_hal_eth.h	776;"	d
+ETH_DMATXDESC_LASTSEGMENTS	STM32Fxx/stm32fxx_hal_eth.h	1447;"	d
+ETH_DMATXDESC_LCA	STM32Fxx/stm32fxx_hal_eth.h	779;"	d
+ETH_DMATXDESC_LCO	STM32Fxx/stm32fxx_hal_eth.h	781;"	d
+ETH_DMATXDESC_LS	STM32Fxx/stm32fxx_hal_eth.h	761;"	d
+ETH_DMATXDESC_NC	STM32Fxx/stm32fxx_hal_eth.h	780;"	d
+ETH_DMATXDESC_OWN	STM32Fxx/stm32fxx_hal_eth.h	759;"	d
+ETH_DMATXDESC_PCE	STM32Fxx/stm32fxx_hal_eth.h	778;"	d
+ETH_DMATXDESC_TBS1	STM32Fxx/stm32fxx_hal_eth.h	793;"	d
+ETH_DMATXDESC_TBS2	STM32Fxx/stm32fxx_hal_eth.h	792;"	d
+ETH_DMATXDESC_TCH	STM32Fxx/stm32fxx_hal_eth.h	772;"	d
+ETH_DMATXDESC_TER	STM32Fxx/stm32fxx_hal_eth.h	771;"	d
+ETH_DMATXDESC_TTSE	STM32Fxx/stm32fxx_hal_eth.h	765;"	d
+ETH_DMATXDESC_TTSS	STM32Fxx/stm32fxx_hal_eth.h	773;"	d
+ETH_DMATXDESC_UF	STM32Fxx/stm32fxx_hal_eth.h	786;"	d
+ETH_DMATXDESC_VF	STM32Fxx/stm32fxx_hal_eth.h	783;"	d
+ETH_DMATransmissionDisable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_DMATransmissionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMATransmissionDisable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_DMATransmissionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMATransmissionEnable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_DMATransmissionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMATransmissionEnable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_DMATransmissionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_DMA_ALL_INTS	STM32Fxx/NetworkInterface.c	74;"	d	file:
+ETH_DMA_ALL_INTS	STM32Fxx/stm32f4xx_hal_eth.c	732;"	d	file:
+ETH_DMA_ALL_INTS	STM32Fxx/stm32fxx_hal_eth.c	728;"	d	file:
+ETH_DMA_FLAG_ACCESSERROR	STM32Fxx/stm32fxx_hal_eth.h	1523;"	d
+ETH_DMA_FLAG_AIS	STM32Fxx/stm32fxx_hal_eth.h	1525;"	d
+ETH_DMA_FLAG_DATATRANSFERERROR	STM32Fxx/stm32fxx_hal_eth.h	1521;"	d
+ETH_DMA_FLAG_ER	STM32Fxx/stm32fxx_hal_eth.h	1526;"	d
+ETH_DMA_FLAG_ET	STM32Fxx/stm32fxx_hal_eth.h	1528;"	d
+ETH_DMA_FLAG_FBE	STM32Fxx/stm32fxx_hal_eth.h	1527;"	d
+ETH_DMA_FLAG_MMC	STM32Fxx/stm32fxx_hal_eth.h	1520;"	d
+ETH_DMA_FLAG_NIS	STM32Fxx/stm32fxx_hal_eth.h	1524;"	d
+ETH_DMA_FLAG_PMT	STM32Fxx/stm32fxx_hal_eth.h	1519;"	d
+ETH_DMA_FLAG_R	STM32Fxx/stm32fxx_hal_eth.h	1532;"	d
+ETH_DMA_FLAG_RBU	STM32Fxx/stm32fxx_hal_eth.h	1531;"	d
+ETH_DMA_FLAG_READWRITEERROR	STM32Fxx/stm32fxx_hal_eth.h	1522;"	d
+ETH_DMA_FLAG_RO	STM32Fxx/stm32fxx_hal_eth.h	1534;"	d
+ETH_DMA_FLAG_RPS	STM32Fxx/stm32fxx_hal_eth.h	1530;"	d
+ETH_DMA_FLAG_RWT	STM32Fxx/stm32fxx_hal_eth.h	1529;"	d
+ETH_DMA_FLAG_T	STM32Fxx/stm32fxx_hal_eth.h	1538;"	d
+ETH_DMA_FLAG_TBU	STM32Fxx/stm32fxx_hal_eth.h	1536;"	d
+ETH_DMA_FLAG_TJT	STM32Fxx/stm32fxx_hal_eth.h	1535;"	d
+ETH_DMA_FLAG_TPS	STM32Fxx/stm32fxx_hal_eth.h	1537;"	d
+ETH_DMA_FLAG_TST	STM32Fxx/stm32fxx_hal_eth.h	1518;"	d
+ETH_DMA_FLAG_TU	STM32Fxx/stm32fxx_hal_eth.h	1533;"	d
+ETH_DMA_IT_AIS	STM32Fxx/stm32fxx_hal_eth.h	1562;"	d
+ETH_DMA_IT_ER	STM32Fxx/stm32fxx_hal_eth.h	1563;"	d
+ETH_DMA_IT_ET	STM32Fxx/stm32fxx_hal_eth.h	1565;"	d
+ETH_DMA_IT_FBE	STM32Fxx/stm32fxx_hal_eth.h	1564;"	d
+ETH_DMA_IT_MMC	STM32Fxx/stm32fxx_hal_eth.h	1560;"	d
+ETH_DMA_IT_NIS	STM32Fxx/stm32fxx_hal_eth.h	1561;"	d
+ETH_DMA_IT_PMT	STM32Fxx/stm32fxx_hal_eth.h	1559;"	d
+ETH_DMA_IT_R	STM32Fxx/stm32fxx_hal_eth.h	1569;"	d
+ETH_DMA_IT_RBU	STM32Fxx/stm32fxx_hal_eth.h	1568;"	d
+ETH_DMA_IT_RO	STM32Fxx/stm32fxx_hal_eth.h	1571;"	d
+ETH_DMA_IT_RPS	STM32Fxx/stm32fxx_hal_eth.h	1567;"	d
+ETH_DMA_IT_RWT	STM32Fxx/stm32fxx_hal_eth.h	1566;"	d
+ETH_DMA_IT_T	STM32Fxx/stm32fxx_hal_eth.h	1575;"	d
+ETH_DMA_IT_TBU	STM32Fxx/stm32fxx_hal_eth.h	1573;"	d
+ETH_DMA_IT_TJT	STM32Fxx/stm32fxx_hal_eth.h	1572;"	d
+ETH_DMA_IT_TPS	STM32Fxx/stm32fxx_hal_eth.h	1574;"	d
+ETH_DMA_IT_TST	STM32Fxx/stm32fxx_hal_eth.h	1558;"	d
+ETH_DMA_IT_TU	STM32Fxx/stm32fxx_hal_eth.h	1570;"	d
+ETH_DMA_OVERFLOW_MISSEDFRAMECOUNTER	STM32Fxx/stm32fxx_hal_eth.h	1613;"	d
+ETH_DMA_OVERFLOW_RXFIFOCOUNTER	STM32Fxx/stm32fxx_hal_eth.h	1612;"	d
+ETH_DMA_RECEIVEPROCESS_CLOSING	STM32Fxx/stm32fxx_hal_eth.h	1602;"	d
+ETH_DMA_RECEIVEPROCESS_FETCHING	STM32Fxx/stm32fxx_hal_eth.h	1599;"	d
+ETH_DMA_RECEIVEPROCESS_QUEUING	STM32Fxx/stm32fxx_hal_eth.h	1603;"	d
+ETH_DMA_RECEIVEPROCESS_STOPPED	STM32Fxx/stm32fxx_hal_eth.h	1598;"	d
+ETH_DMA_RECEIVEPROCESS_SUSPENDED	STM32Fxx/stm32fxx_hal_eth.h	1601;"	d
+ETH_DMA_RECEIVEPROCESS_WAITING	STM32Fxx/stm32fxx_hal_eth.h	1600;"	d
+ETH_DMA_RX_OVERFLOW_MISSEDFRAMES_COUNTERSHIFT	STM32Fxx/stm32fxx_hal_eth.h	365;"	d
+ETH_DMA_TRANSMITPROCESS_CLOSING	STM32Fxx/stm32fxx_hal_eth.h	1588;"	d
+ETH_DMA_TRANSMITPROCESS_FETCHING	STM32Fxx/stm32fxx_hal_eth.h	1584;"	d
+ETH_DMA_TRANSMITPROCESS_READING	STM32Fxx/stm32fxx_hal_eth.h	1586;"	d
+ETH_DMA_TRANSMITPROCESS_STOPPED	STM32Fxx/stm32fxx_hal_eth.h	1583;"	d
+ETH_DMA_TRANSMITPROCESS_SUSPENDED	STM32Fxx/stm32fxx_hal_eth.h	1587;"	d
+ETH_DMA_TRANSMITPROCESS_WAITING	STM32Fxx/stm32fxx_hal_eth.h	1585;"	d
+ETH_DROPTCPIPCHECKSUMERRORFRAME_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1282;"	d
+ETH_DROPTCPIPCHECKSUMERRORFRAME_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1281;"	d
+ETH_ERROR	STM32Fxx/stm32fxx_hal_eth.h	328;"	d
+ETH_EXTI_LINE_WAKEUP	STM32Fxx/stm32fxx_hal_eth.h	1621;"	d
+ETH_EXTRA	STM32Fxx/stm32fxx_hal_eth.h	674;"	d
+ETH_FIXEDBURST_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1380;"	d
+ETH_FIXEDBURST_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1379;"	d
+ETH_FLUSHRECEIVEDFRAME_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1300;"	d
+ETH_FLUSHRECEIVEDFRAME_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1299;"	d
+ETH_FORWARDERRORFRAMES_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1333;"	d
+ETH_FORWARDERRORFRAMES_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1332;"	d
+ETH_FORWARDUNDERSIZEDGOODFRAMES_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1342;"	d
+ETH_FORWARDUNDERSIZEDGOODFRAMES_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1341;"	d
+ETH_FlushTransmitFIFO	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_FlushTransmitFIFO(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_FlushTransmitFIFO	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_FlushTransmitFIFO(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_HEADER	STM32Fxx/stm32fxx_hal_eth.h	672;"	d
+ETH_HandleTypeDef	STM32Fxx/stm32fxx_hal_eth.h	/^} ETH_HandleTypeDef;$/;"	t	typeref:struct:__anon7
+ETH_INTERFRAMEGAP_40BIT	STM32Fxx/stm32fxx_hal_eth.h	999;"	d
+ETH_INTERFRAMEGAP_48BIT	STM32Fxx/stm32fxx_hal_eth.h	998;"	d
+ETH_INTERFRAMEGAP_56BIT	STM32Fxx/stm32fxx_hal_eth.h	997;"	d
+ETH_INTERFRAMEGAP_64BIT	STM32Fxx/stm32fxx_hal_eth.h	996;"	d
+ETH_INTERFRAMEGAP_72BIT	STM32Fxx/stm32fxx_hal_eth.h	995;"	d
+ETH_INTERFRAMEGAP_80BIT	STM32Fxx/stm32fxx_hal_eth.h	994;"	d
+ETH_INTERFRAMEGAP_88BIT	STM32Fxx/stm32fxx_hal_eth.h	993;"	d
+ETH_INTERFRAMEGAP_96BIT	STM32Fxx/stm32fxx_hal_eth.h	992;"	d
+ETH_IRQHandler	STM32Fxx/NetworkInterface.c	/^void ETH_IRQHandler( void )$/;"	f
+ETH_IRQHandler	XMC4500/NetworkInterface.c	/^void ETH_IRQHandler( void )$/;"	f
+ETH_InitTypeDef	STM32Fxx/stm32fxx_hal_eth.h	/^} ETH_InitTypeDef;$/;"	t	typeref:struct:__anon2
+ETH_JABBER_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	984;"	d
+ETH_JABBER_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	983;"	d
+ETH_JUMBO_FRAME_PAYLOAD	STM32Fxx/stm32fxx_hal_eth.h	678;"	d
+ETH_LOOPBACKMODE_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1026;"	d
+ETH_LOOPBACKMODE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1025;"	d
+ETH_MACAddressConfig	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_MACAddressConfig(ETH_HandleTypeDef *heth, uint32_t MacAddr, uint8_t *Addr)$/;"	f	file:
+ETH_MACAddressConfig	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_MACAddressConfig(ETH_HandleTypeDef *heth, uint32_t MacAddr, uint8_t *Addr)$/;"	f	file:
+ETH_MACCR_CLEAR_MASK	STM32Fxx/stm32fxx_hal_eth.h	353;"	d
+ETH_MACDMAConfig	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_MACDMAConfig(ETH_HandleTypeDef *heth, uint32_t err)$/;"	f	file:
+ETH_MACDMAConfig	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_MACDMAConfig(ETH_HandleTypeDef *heth, uint32_t err)$/;"	f	file:
+ETH_MACFCR_CLEAR_MASK	STM32Fxx/stm32fxx_hal_eth.h	356;"	d
+ETH_MACInitTypeDef	STM32Fxx/stm32fxx_hal_eth.h	/^} ETH_MACInitTypeDef;$/;"	t	typeref:struct:__anon3
+ETH_MACMIIAR_CR_MASK	STM32Fxx/stm32fxx_hal_eth.h	350;"	d
+ETH_MACReceptionDisable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_MACReceptionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACReceptionDisable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_MACReceptionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACReceptionEnable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_MACReceptionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACReceptionEnable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_MACReceptionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACTransmissionDisable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_MACTransmissionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACTransmissionDisable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_MACTransmissionDisable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACTransmissionEnable	STM32Fxx/stm32f4xx_hal_eth.c	/^static void ETH_MACTransmissionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MACTransmissionEnable	STM32Fxx/stm32fxx_hal_eth.c	/^static void ETH_MACTransmissionEnable(ETH_HandleTypeDef *heth)$/;"	f	file:
+ETH_MAC_ADDRESS0	STM32Fxx/stm32fxx_hal_eth.h	1214;"	d
+ETH_MAC_ADDRESS1	STM32Fxx/stm32fxx_hal_eth.h	1215;"	d
+ETH_MAC_ADDRESS2	STM32Fxx/stm32fxx_hal_eth.h	1216;"	d
+ETH_MAC_ADDRESS3	STM32Fxx/stm32fxx_hal_eth.h	1217;"	d
+ETH_MAC_ADDRESSFILTER_DA	STM32Fxx/stm32fxx_hal_eth.h	1226;"	d
+ETH_MAC_ADDRESSFILTER_SA	STM32Fxx/stm32fxx_hal_eth.h	1225;"	d
+ETH_MAC_ADDRESSMASK_BYTE1	STM32Fxx/stm32fxx_hal_eth.h	1239;"	d
+ETH_MAC_ADDRESSMASK_BYTE2	STM32Fxx/stm32fxx_hal_eth.h	1238;"	d
+ETH_MAC_ADDRESSMASK_BYTE3	STM32Fxx/stm32fxx_hal_eth.h	1237;"	d
+ETH_MAC_ADDRESSMASK_BYTE4	STM32Fxx/stm32fxx_hal_eth.h	1236;"	d
+ETH_MAC_ADDRESSMASK_BYTE5	STM32Fxx/stm32fxx_hal_eth.h	1235;"	d
+ETH_MAC_ADDRESSMASK_BYTE6	STM32Fxx/stm32fxx_hal_eth.h	1234;"	d
+ETH_MAC_ADDR_HBASE	STM32Fxx/stm32fxx_hal_eth.h	346;"	d
+ETH_MAC_ADDR_LBASE	STM32Fxx/stm32fxx_hal_eth.h	347;"	d
+ETH_MAC_FLAG_MMC	STM32Fxx/stm32fxx_hal_eth.h	1509;"	d
+ETH_MAC_FLAG_MMCR	STM32Fxx/stm32fxx_hal_eth.h	1508;"	d
+ETH_MAC_FLAG_MMCT	STM32Fxx/stm32fxx_hal_eth.h	1507;"	d
+ETH_MAC_FLAG_PMT	STM32Fxx/stm32fxx_hal_eth.h	1510;"	d
+ETH_MAC_FLAG_TST	STM32Fxx/stm32fxx_hal_eth.h	1506;"	d
+ETH_MAC_IT_MMC	STM32Fxx/stm32fxx_hal_eth.h	1549;"	d
+ETH_MAC_IT_MMCR	STM32Fxx/stm32fxx_hal_eth.h	1548;"	d
+ETH_MAC_IT_MMCT	STM32Fxx/stm32fxx_hal_eth.h	1547;"	d
+ETH_MAC_IT_PMT	STM32Fxx/stm32fxx_hal_eth.h	1550;"	d
+ETH_MAC_IT_TST	STM32Fxx/stm32fxx_hal_eth.h	1546;"	d
+ETH_MAC_MII_RECEIVE_PROTOCOL_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1273;"	d
+ETH_MAC_MII_TRANSMIT_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1259;"	d
+ETH_MAC_READCONTROLLER_	STM32Fxx/stm32fxx_hal_eth.h	1267;"	d
+ETH_MAC_READCONTROLLER_IDLE	STM32Fxx/stm32fxx_hal_eth.h	1264;"	d
+ETH_MAC_READCONTROLLER_READING_DATA	STM32Fxx/stm32fxx_hal_eth.h	1265;"	d
+ETH_MAC_READCONTROLLER_READING_STATUS	STM32Fxx/stm32fxx_hal_eth.h	1266;"	d
+ETH_MAC_RXFIFO_ABOVE_THRESHOLD	STM32Fxx/stm32fxx_hal_eth.h	1262;"	d
+ETH_MAC_RXFIFO_BELOW_THRESHOLD	STM32Fxx/stm32fxx_hal_eth.h	1261;"	d
+ETH_MAC_RXFIFO_EMPTY	STM32Fxx/stm32fxx_hal_eth.h	1260;"	d
+ETH_MAC_RXFIFO_FULL	STM32Fxx/stm32fxx_hal_eth.h	1263;"	d
+ETH_MAC_RXFIFO_WRITE_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1268;"	d
+ETH_MAC_SMALL_FIFO_NOTACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1269;"	d
+ETH_MAC_SMALL_FIFO_READ_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1270;"	d
+ETH_MAC_SMALL_FIFO_RW_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1272;"	d
+ETH_MAC_SMALL_FIFO_WRITE_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1271;"	d
+ETH_MAC_TRANSMISSION_PAUSE	STM32Fxx/stm32fxx_hal_eth.h	1254;"	d
+ETH_MAC_TRANSMITFRAMECONTROLLER_GENRATING_PCF	STM32Fxx/stm32fxx_hal_eth.h	1257;"	d
+ETH_MAC_TRANSMITFRAMECONTROLLER_IDLE	STM32Fxx/stm32fxx_hal_eth.h	1255;"	d
+ETH_MAC_TRANSMITFRAMECONTROLLER_TRANSFERRING	STM32Fxx/stm32fxx_hal_eth.h	1258;"	d
+ETH_MAC_TRANSMITFRAMECONTROLLER_WAITING	STM32Fxx/stm32fxx_hal_eth.h	1256;"	d
+ETH_MAC_TXFIFONOT_EMPTY	STM32Fxx/stm32fxx_hal_eth.h	1248;"	d
+ETH_MAC_TXFIFO_FULL	STM32Fxx/stm32fxx_hal_eth.h	1247;"	d
+ETH_MAC_TXFIFO_IDLE	STM32Fxx/stm32fxx_hal_eth.h	1250;"	d
+ETH_MAC_TXFIFO_READ	STM32Fxx/stm32fxx_hal_eth.h	1251;"	d
+ETH_MAC_TXFIFO_WAITING	STM32Fxx/stm32fxx_hal_eth.h	1252;"	d
+ETH_MAC_TXFIFO_WRITE_ACTIVE	STM32Fxx/stm32fxx_hal_eth.h	1249;"	d
+ETH_MAC_TXFIFO_WRITING	STM32Fxx/stm32fxx_hal_eth.h	1253;"	d
+ETH_MAX_ETH_PAYLOAD	STM32Fxx/stm32fxx_hal_eth.h	677;"	d
+ETH_MAX_PACKET_SIZE	STM32Fxx/stm32fxx_hal_eth.h	671;"	d
+ETH_MEDIA_INTERFACE_MII	STM32Fxx/stm32fxx_hal_eth.h	965;"	d
+ETH_MEDIA_INTERFACE_RMII	STM32Fxx/stm32fxx_hal_eth.h	966;"	d
+ETH_MIN_ETH_PAYLOAD	STM32Fxx/stm32fxx_hal_eth.h	676;"	d
+ETH_MMC_IT_RFAE	STM32Fxx/stm32fxx_hal_eth.h	1497;"	d
+ETH_MMC_IT_RFCE	STM32Fxx/stm32fxx_hal_eth.h	1498;"	d
+ETH_MMC_IT_RGUF	STM32Fxx/stm32fxx_hal_eth.h	1496;"	d
+ETH_MMC_IT_TGF	STM32Fxx/stm32fxx_hal_eth.h	1486;"	d
+ETH_MMC_IT_TGFMSC	STM32Fxx/stm32fxx_hal_eth.h	1487;"	d
+ETH_MMC_IT_TGFSC	STM32Fxx/stm32fxx_hal_eth.h	1488;"	d
+ETH_MODE_FULLDUPLEX	STM32Fxx/stm32fxx_hal_eth.h	939;"	d
+ETH_MODE_HALFDUPLEX	STM32Fxx/stm32fxx_hal_eth.h	940;"	d
+ETH_MULTICASTFRAMESFILTER_HASHTABLE	STM32Fxx/stm32fxx_hal_eth.h	1138;"	d
+ETH_MULTICASTFRAMESFILTER_NONE	STM32Fxx/stm32fxx_hal_eth.h	1140;"	d
+ETH_MULTICASTFRAMESFILTER_PERFECT	STM32Fxx/stm32fxx_hal_eth.h	1139;"	d
+ETH_MULTICASTFRAMESFILTER_PERFECTHASHTABLE	STM32Fxx/stm32fxx_hal_eth.h	1137;"	d
+ETH_PASSCONTROLFRAMES_BLOCKALL	STM32Fxx/stm32fxx_hal_eth.h	1100;"	d
+ETH_PASSCONTROLFRAMES_FORWARDALL	STM32Fxx/stm32fxx_hal_eth.h	1101;"	d
+ETH_PASSCONTROLFRAMES_FORWARDPASSEDADDRFILTER	STM32Fxx/stm32fxx_hal_eth.h	1102;"	d
+ETH_PAUSELOWTHRESHOLD_MINUS144	STM32Fxx/stm32fxx_hal_eth.h	1169;"	d
+ETH_PAUSELOWTHRESHOLD_MINUS256	STM32Fxx/stm32fxx_hal_eth.h	1170;"	d
+ETH_PAUSELOWTHRESHOLD_MINUS28	STM32Fxx/stm32fxx_hal_eth.h	1168;"	d
+ETH_PAUSELOWTHRESHOLD_MINUS4	STM32Fxx/stm32fxx_hal_eth.h	1167;"	d
+ETH_PMT_FLAG_MPR	STM32Fxx/stm32fxx_hal_eth.h	1478;"	d
+ETH_PMT_FLAG_WUFFRPR	STM32Fxx/stm32fxx_hal_eth.h	1476;"	d
+ETH_PMT_FLAG_WUFR	STM32Fxx/stm32fxx_hal_eth.h	1477;"	d
+ETH_PROMISCUOUS_MODE_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1129;"	d
+ETH_PROMISCUOUS_MODE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1128;"	d
+ETH_RECEIVEALL_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1081;"	d
+ETH_RECEIVEAll_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1082;"	d
+ETH_RECEIVEDTHRESHOLDCONTROL_128BYTES	STM32Fxx/stm32fxx_hal_eth.h	1353;"	d
+ETH_RECEIVEDTHRESHOLDCONTROL_32BYTES	STM32Fxx/stm32fxx_hal_eth.h	1351;"	d
+ETH_RECEIVEDTHRESHOLDCONTROL_64BYTES	STM32Fxx/stm32fxx_hal_eth.h	1350;"	d
+ETH_RECEIVEDTHRESHOLDCONTROL_96BYTES	STM32Fxx/stm32fxx_hal_eth.h	1352;"	d
+ETH_RECEIVEFLOWCONTROL_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1188;"	d
+ETH_RECEIVEFLOWCONTROL_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1187;"	d
+ETH_RECEIVEOWN_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1017;"	d
+ETH_RECEIVEOWN_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1016;"	d
+ETH_RECEIVESTOREFORWARD_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1291;"	d
+ETH_RECEIVESTOREFORWARD_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1290;"	d
+ETH_REG_WRITE_DELAY	STM32Fxx/stm32fxx_hal_eth.h	324;"	d
+ETH_RETRYTRANSMISSION_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1044;"	d
+ETH_RETRYTRANSMISSION_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1043;"	d
+ETH_RXBUFNB	STM32Fxx/stm32fxx_hal_eth.h	704;"	d
+ETH_RXDMABURSTLENGTH_16BEAT	STM32Fxx/stm32fxx_hal_eth.h	1392;"	d
+ETH_RXDMABURSTLENGTH_1BEAT	STM32Fxx/stm32fxx_hal_eth.h	1388;"	d
+ETH_RXDMABURSTLENGTH_2BEAT	STM32Fxx/stm32fxx_hal_eth.h	1389;"	d
+ETH_RXDMABURSTLENGTH_32BEAT	STM32Fxx/stm32fxx_hal_eth.h	1393;"	d
+ETH_RXDMABURSTLENGTH_4BEAT	STM32Fxx/stm32fxx_hal_eth.h	1390;"	d
+ETH_RXDMABURSTLENGTH_4XPBL_128BEAT	STM32Fxx/stm32fxx_hal_eth.h	1399;"	d
+ETH_RXDMABURSTLENGTH_4XPBL_16BEAT	STM32Fxx/stm32fxx_hal_eth.h	1396;"	d
+ETH_RXDMABURSTLENGTH_4XPBL_32BEAT	STM32Fxx/stm32fxx_hal_eth.h	1397;"	d
+ETH_RXDMABURSTLENGTH_4XPBL_4BEAT	STM32Fxx/stm32fxx_hal_eth.h	1394;"	d
+ETH_RXDMABURSTLENGTH_4XPBL_64BEAT	STM32Fxx/stm32fxx_hal_eth.h	1398;"	d
+ETH_RXDMABURSTLENGTH_4XPBL_8BEAT	STM32Fxx/stm32fxx_hal_eth.h	1395;"	d
+ETH_RXDMABURSTLENGTH_8BEAT	STM32Fxx/stm32fxx_hal_eth.h	1391;"	d
+ETH_RXINTERRUPT_MODE	STM32Fxx/stm32fxx_hal_eth.h	948;"	d
+ETH_RXPOLLING_MODE	STM32Fxx/stm32fxx_hal_eth.h	947;"	d
+ETH_RX_BUF_SIZE	STM32Fxx/stm32fxx_hal_eth.h	699;"	d
+ETH_SECONDFRAMEOPERARTE_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1362;"	d
+ETH_SECONDFRAMEOPERARTE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1361;"	d
+ETH_SOURCEADDRFILTER_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1092;"	d
+ETH_SOURCEADDRFILTER_INVERSE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1091;"	d
+ETH_SOURCEADDRFILTER_NORMAL_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1090;"	d
+ETH_SPEED_100M	STM32Fxx/stm32fxx_hal_eth.h	931;"	d
+ETH_SPEED_10M	STM32Fxx/stm32fxx_hal_eth.h	930;"	d
+ETH_SUCCESS	STM32Fxx/stm32fxx_hal_eth.h	327;"	d
+ETH_TRANSMITFLOWCONTROL_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1197;"	d
+ETH_TRANSMITFLOWCONTROL_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1196;"	d
+ETH_TRANSMITSTOREFORWARD_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1309;"	d
+ETH_TRANSMITSTOREFORWARD_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1308;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_128BYTES	STM32Fxx/stm32fxx_hal_eth.h	1318;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_16BYTES	STM32Fxx/stm32fxx_hal_eth.h	1324;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_192BYTES	STM32Fxx/stm32fxx_hal_eth.h	1319;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_24BYTES	STM32Fxx/stm32fxx_hal_eth.h	1323;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_256BYTES	STM32Fxx/stm32fxx_hal_eth.h	1320;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_32BYTES	STM32Fxx/stm32fxx_hal_eth.h	1322;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_40BYTES	STM32Fxx/stm32fxx_hal_eth.h	1321;"	d
+ETH_TRANSMITTHRESHOLDCONTROL_64BYTES	STM32Fxx/stm32fxx_hal_eth.h	1317;"	d
+ETH_TXBUFNB	STM32Fxx/stm32fxx_hal_eth.h	732;"	d
+ETH_TXDMABURSTLENGTH_16BEAT	STM32Fxx/stm32fxx_hal_eth.h	1411;"	d
+ETH_TXDMABURSTLENGTH_1BEAT	STM32Fxx/stm32fxx_hal_eth.h	1407;"	d
+ETH_TXDMABURSTLENGTH_2BEAT	STM32Fxx/stm32fxx_hal_eth.h	1408;"	d
+ETH_TXDMABURSTLENGTH_32BEAT	STM32Fxx/stm32fxx_hal_eth.h	1412;"	d
+ETH_TXDMABURSTLENGTH_4BEAT	STM32Fxx/stm32fxx_hal_eth.h	1409;"	d
+ETH_TXDMABURSTLENGTH_4XPBL_128BEAT	STM32Fxx/stm32fxx_hal_eth.h	1418;"	d
+ETH_TXDMABURSTLENGTH_4XPBL_16BEAT	STM32Fxx/stm32fxx_hal_eth.h	1415;"	d
+ETH_TXDMABURSTLENGTH_4XPBL_32BEAT	STM32Fxx/stm32fxx_hal_eth.h	1416;"	d
+ETH_TXDMABURSTLENGTH_4XPBL_4BEAT	STM32Fxx/stm32fxx_hal_eth.h	1413;"	d
+ETH_TXDMABURSTLENGTH_4XPBL_64BEAT	STM32Fxx/stm32fxx_hal_eth.h	1417;"	d
+ETH_TXDMABURSTLENGTH_4XPBL_8BEAT	STM32Fxx/stm32fxx_hal_eth.h	1414;"	d
+ETH_TXDMABURSTLENGTH_8BEAT	STM32Fxx/stm32fxx_hal_eth.h	1410;"	d
+ETH_TX_BUF_SIZE	STM32Fxx/stm32fxx_hal_eth.h	727;"	d
+ETH_UNICASTFRAMESFILTER_HASHTABLE	STM32Fxx/stm32fxx_hal_eth.h	1149;"	d
+ETH_UNICASTFRAMESFILTER_PERFECT	STM32Fxx/stm32fxx_hal_eth.h	1150;"	d
+ETH_UNICASTFRAMESFILTER_PERFECTHASHTABLE	STM32Fxx/stm32fxx_hal_eth.h	1148;"	d
+ETH_UNICASTPAUSEFRAMEDETECT_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1179;"	d
+ETH_UNICASTPAUSEFRAMEDETECT_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1178;"	d
+ETH_VLANTAGCOMPARISON_12BIT	STM32Fxx/stm32fxx_hal_eth.h	1205;"	d
+ETH_VLANTAGCOMPARISON_16BIT	STM32Fxx/stm32fxx_hal_eth.h	1206;"	d
+ETH_VLAN_TAG	STM32Fxx/stm32fxx_hal_eth.h	675;"	d
+ETH_WAKEUP_REGISTER_LENGTH	STM32Fxx/stm32fxx_hal_eth.h	362;"	d
+ETH_WATCHDOG_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	975;"	d
+ETH_WATCHDOG_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	974;"	d
+ETH_ZEROQUANTAPAUSE_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1159;"	d
+ETH_ZEROQUANTAPAUSE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1158;"	d
+EnhancedDescriptorFormat	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             EnhancedDescriptorFormat;    \/*!< Enables the enhanced descriptor format.$/;"	m	struct:__anon4
+EthernetPhy_t	include/phyHandling.h	/^} EthernetPhy_t;$/;"	t	typeref:struct:xEthernetPhy
+ExtendedStatus	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   ExtendedStatus;        \/*!< Extended status for PTP receive descriptor *\/$/;"	m	struct:__anon5
+FSRxDesc	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_DMADescTypeDef *FSRxDesc;          \/*!< First Segment Rx Desc *\/$/;"	m	struct:__anon6
+FixedBurst	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             FixedBurst;                  \/*!< Enables or disables the AHB Master interface fixed burst transfers.$/;"	m	struct:__anon4
+FlushReceivedFrame	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             FlushReceivedFrame;          \/*!< Enables or disables the flushing of received frames.$/;"	m	struct:__anon4
+ForwardErrorFrames	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ForwardErrorFrames;          \/*!< Selects or not the forward to the DMA of erroneous frames.$/;"	m	struct:__anon4
+ForwardUndersizedGoodFrames	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ForwardUndersizedGoodFrames; \/*!< Enables or disables the Rx FIFO to forward Undersized frames (frames with no Error$/;"	m	struct:__anon4
+HAL_ETH_ConfigDMA	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_ConfigDMA(ETH_HandleTypeDef *heth, ETH_DMAInitTypeDef *dmaconf)$/;"	f
+HAL_ETH_ConfigDMA	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_ConfigDMA(ETH_HandleTypeDef *heth, ETH_DMAInitTypeDef *dmaconf)$/;"	f
+HAL_ETH_ConfigMAC	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_ConfigMAC(ETH_HandleTypeDef *heth, ETH_MACInitTypeDef *macconf)$/;"	f
+HAL_ETH_ConfigMAC	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_ConfigMAC(ETH_HandleTypeDef *heth, ETH_MACInitTypeDef *macconf)$/;"	f
+HAL_ETH_DMARxDescListInit	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_DMARxDescListInit(ETH_HandleTypeDef *heth, ETH_DMADescTypeDef *pxDMATable, uint8_t *ucDataBuffer, uint32_t ulBufferCount)$/;"	f
+HAL_ETH_DMARxDescListInit	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_DMARxDescListInit(ETH_HandleTypeDef *heth, ETH_DMADescTypeDef *pxDMATable, uint8_t *ucDataBuffer, uint32_t ulBufferCount)$/;"	f
+HAL_ETH_DMATxDescListInit	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_DMATxDescListInit(ETH_HandleTypeDef *heth, ETH_DMADescTypeDef *pxDMATable, uint8_t *ucDataBuffer, uint32_t ulBufferCount)$/;"	f
+HAL_ETH_DMATxDescListInit	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_DMATxDescListInit(ETH_HandleTypeDef *heth, ETH_DMADescTypeDef *pxDMATable, uint8_t *ucDataBuffer, uint32_t ulBufferCount)$/;"	f
+HAL_ETH_DeInit	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_DeInit(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_DeInit	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_DeInit(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_ErrorCallback	STM32Fxx/stm32f4xx_hal_eth.c	/^__weak void HAL_ETH_ErrorCallback(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_ErrorCallback	STM32Fxx/stm32fxx_hal_eth.c	/^__weak void HAL_ETH_ErrorCallback(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_GetReceivedFrame	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_GetReceivedFrame( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_GetReceivedFrame	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_GetReceivedFrame( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_GetReceivedFrame_IT	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_GetReceivedFrame_IT( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_GetReceivedFrame_IT	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_GetReceivedFrame_IT( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_GetState	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_ETH_StateTypeDef HAL_ETH_GetState(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_GetState	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_ETH_StateTypeDef HAL_ETH_GetState(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_IRQHandler	STM32Fxx/stm32f4xx_hal_eth.c	/^void HAL_ETH_IRQHandler(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_IRQHandler	STM32Fxx/stm32fxx_hal_eth.c	/^void HAL_ETH_IRQHandler(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_Init	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_Init(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_Init	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_Init(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_MspDeInit	STM32Fxx/stm32f4xx_hal_eth.c	/^__weak void HAL_ETH_MspDeInit(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_MspDeInit	STM32Fxx/stm32fxx_hal_eth.c	/^__weak void HAL_ETH_MspDeInit(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_MspInit	STM32Fxx/stm32f4xx_hal_eth.c	/^__weak void HAL_ETH_MspInit(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_MspInit	STM32Fxx/stm32fxx_hal_eth.c	/^__weak void HAL_ETH_MspInit(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_ReadPHYRegister	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_ReadPHYRegister(ETH_HandleTypeDef *heth, uint16_t PHYReg, uint32_t *RegValue)$/;"	f
+HAL_ETH_ReadPHYRegister	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_ReadPHYRegister(ETH_HandleTypeDef *heth, uint16_t PHYReg, uint32_t *RegValue)$/;"	f
+HAL_ETH_RxCpltCallback	STM32Fxx/NetworkInterface.c	/^void HAL_ETH_RxCpltCallback( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_RxCpltCallback	STM32Fxx/stm32f4xx_hal_eth.c	/^__weak void HAL_ETH_RxCpltCallback(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_RxCpltCallback	STM32Fxx/stm32fxx_hal_eth.c	/^__weak void HAL_ETH_RxCpltCallback(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_STATE_BUSY	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_BUSY              = 0x02U,    \/*!< an internal process is ongoing                     *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_BUSY_RD	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_BUSY_RD           = 0x82U,    \/*!< Read process is ongoing                            *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_BUSY_RX	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_BUSY_RX           = 0x22U,    \/*!< Data Reception process is ongoing                  *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_BUSY_TX	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_BUSY_TX           = 0x12U,    \/*!< Data Transmission process is ongoing               *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_BUSY_TX_RX	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_BUSY_TX_RX        = 0x32U,    \/*!< Data Transmission and Reception process is ongoing *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_BUSY_WR	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_BUSY_WR           = 0x42U,    \/*!< Write process is ongoing                           *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_ERROR	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_ERROR             = 0x04U     \/*!< Reception process is ongoing                       *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_READY	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_READY             = 0x01U,    \/*!< Peripheral Initialized and ready for use           *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_RESET	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_RESET             = 0x00U,    \/*!< Peripheral not yet Initialized or disabled         *\/$/;"	e	enum:__anon1
+HAL_ETH_STATE_TIMEOUT	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_ETH_STATE_TIMEOUT           = 0x03U,    \/*!< Timeout state                                      *\/$/;"	e	enum:__anon1
+HAL_ETH_Start	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_Start( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_Start	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_Start( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_StateTypeDef	STM32Fxx/stm32fxx_hal_eth.h	/^}HAL_ETH_StateTypeDef;$/;"	t	typeref:enum:__anon1
+HAL_ETH_Stop	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_Stop(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_Stop	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_Stop(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_TransmitFrame	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_TransmitFrame(ETH_HandleTypeDef *heth, uint32_t FrameLength)$/;"	f
+HAL_ETH_TransmitFrame	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_TransmitFrame(ETH_HandleTypeDef *heth, uint32_t FrameLength)$/;"	f
+HAL_ETH_TxCpltCallback	STM32Fxx/NetworkInterface.c	/^	void HAL_ETH_TxCpltCallback( ETH_HandleTypeDef *heth )$/;"	f
+HAL_ETH_TxCpltCallback	STM32Fxx/stm32f4xx_hal_eth.c	/^__weak void HAL_ETH_TxCpltCallback(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_TxCpltCallback	STM32Fxx/stm32fxx_hal_eth.c	/^__weak void HAL_ETH_TxCpltCallback(ETH_HandleTypeDef *heth)$/;"	f
+HAL_ETH_WritePHYRegister	STM32Fxx/stm32f4xx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_WritePHYRegister(ETH_HandleTypeDef *heth, uint16_t PHYReg, uint32_t RegValue)$/;"	f
+HAL_ETH_WritePHYRegister	STM32Fxx/stm32fxx_hal_eth.c	/^HAL_StatusTypeDef HAL_ETH_WritePHYRegister(ETH_HandleTypeDef *heth, uint16_t PHYReg, uint32_t RegValue)$/;"	f
+HashTableHigh	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             HashTableHigh;             \/*!< This field holds the higher 32 bits of Hash table.$/;"	m	struct:__anon3
+HashTableLow	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             HashTableLow;              \/*!< This field holds the lower 32 bits of Hash table.$/;"	m	struct:__anon3
+INT_MASK	STM32Fxx/stm32f4xx_hal_eth.c	739;"	d	file:
+INT_MASK	STM32Fxx/stm32fxx_hal_eth.c	735;"	d	file:
+IS_ETH_ADDRESS_ALIGNED_BEATS	STM32Fxx/stm32fxx_hal_eth.h	189;"	d
+IS_ETH_AUTOMATIC_PADCRC_STRIP	STM32Fxx/stm32fxx_hal_eth.h	103;"	d
+IS_ETH_AUTONEGOTIATION	STM32Fxx/stm32fxx_hal_eth.h	63;"	d
+IS_ETH_BACKOFF_LIMIT	STM32Fxx/stm32fxx_hal_eth.h	105;"	d
+IS_ETH_BROADCAST_FRAMES_RECEPTION	STM32Fxx/stm32fxx_hal_eth.h	119;"	d
+IS_ETH_CARRIER_SENSE	STM32Fxx/stm32fxx_hal_eth.h	93;"	d
+IS_ETH_CHECKSUM_MODE	STM32Fxx/stm32fxx_hal_eth.h	77;"	d
+IS_ETH_CHECKSUM_OFFLOAD	STM32Fxx/stm32fxx_hal_eth.h	99;"	d
+IS_ETH_CONTROL_FRAMES	STM32Fxx/stm32fxx_hal_eth.h	116;"	d
+IS_ETH_DEFERRAL_CHECK	STM32Fxx/stm32fxx_hal_eth.h	109;"	d
+IS_ETH_DESTINATION_ADDR_FILTER	STM32Fxx/stm32fxx_hal_eth.h	121;"	d
+IS_ETH_DMARXDESC_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	254;"	d
+IS_ETH_DMATXDESC_BUFFER_SIZE	STM32Fxx/stm32fxx_hal_eth.h	253;"	d
+IS_ETH_DMATXDESC_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	223;"	d
+IS_ETH_DMA_ARBITRATION_ROUNDROBIN_RXTX	STM32Fxx/stm32fxx_hal_eth.h	218;"	d
+IS_ETH_DMA_DESC_SKIP_LENGTH	STM32Fxx/stm32fxx_hal_eth.h	217;"	d
+IS_ETH_DMA_FLAG	STM32Fxx/stm32fxx_hal_eth.h	276;"	d
+IS_ETH_DMA_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	277;"	d
+IS_ETH_DMA_GET_IT	STM32Fxx/stm32fxx_hal_eth.h	296;"	d
+IS_ETH_DMA_GET_OVERFLOW	STM32Fxx/stm32fxx_hal_eth.h	305;"	d
+IS_ETH_DMA_IT	STM32Fxx/stm32fxx_hal_eth.h	295;"	d
+IS_ETH_DMA_RXDESC_BUFFER	STM32Fxx/stm32fxx_hal_eth.h	272;"	d
+IS_ETH_DMA_TXDESC_CHECKSUM	STM32Fxx/stm32fxx_hal_eth.h	249;"	d
+IS_ETH_DMA_TXDESC_SEGMENT	STM32Fxx/stm32fxx_hal_eth.h	247;"	d
+IS_ETH_DROP_TCPIP_CHECKSUM_FRAME	STM32Fxx/stm32fxx_hal_eth.h	163;"	d
+IS_ETH_DUPLEX_MODE	STM32Fxx/stm32fxx_hal_eth.h	67;"	d
+IS_ETH_DUPLEX_MODE	STM32Fxx/stm32fxx_hal_eth.h	69;"	d
+IS_ETH_ENHANCED_DESCRIPTOR_FORMAT	STM32Fxx/stm32fxx_hal_eth.h	312;"	d
+IS_ETH_FIXED_BURST	STM32Fxx/stm32fxx_hal_eth.h	191;"	d
+IS_ETH_FLUSH_RECEIVE_FRAME	STM32Fxx/stm32fxx_hal_eth.h	167;"	d
+IS_ETH_FORWARD_ERROR_FRAMES	STM32Fxx/stm32fxx_hal_eth.h	179;"	d
+IS_ETH_FORWARD_UNDERSIZED_GOOD_FRAMES	STM32Fxx/stm32fxx_hal_eth.h	181;"	d
+IS_ETH_INTER_FRAME_GAP	STM32Fxx/stm32fxx_hal_eth.h	85;"	d
+IS_ETH_JABBER	STM32Fxx/stm32fxx_hal_eth.h	83;"	d
+IS_ETH_LOOPBACK_MODE	STM32Fxx/stm32fxx_hal_eth.h	97;"	d
+IS_ETH_MAC_ADDRESS0123	STM32Fxx/stm32fxx_hal_eth.h	148;"	d
+IS_ETH_MAC_ADDRESS123	STM32Fxx/stm32fxx_hal_eth.h	152;"	d
+IS_ETH_MAC_ADDRESS_FILTER	STM32Fxx/stm32fxx_hal_eth.h	155;"	d
+IS_ETH_MAC_ADDRESS_MASK	STM32Fxx/stm32fxx_hal_eth.h	157;"	d
+IS_ETH_MAC_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	292;"	d
+IS_ETH_MAC_GET_IT	STM32Fxx/stm32fxx_hal_eth.h	289;"	d
+IS_ETH_MAC_IT	STM32Fxx/stm32fxx_hal_eth.h	288;"	d
+IS_ETH_MEDIA_INTERFACE	STM32Fxx/stm32fxx_hal_eth.h	79;"	d
+IS_ETH_MMC_GET_IT	STM32Fxx/stm32fxx_hal_eth.h	309;"	d
+IS_ETH_MMC_IT	STM32Fxx/stm32fxx_hal_eth.h	307;"	d
+IS_ETH_MULTICAST_FRAMES_FILTER	STM32Fxx/stm32fxx_hal_eth.h	125;"	d
+IS_ETH_PAUSE_LOW_THRESHOLD	STM32Fxx/stm32fxx_hal_eth.h	135;"	d
+IS_ETH_PAUSE_TIME	STM32Fxx/stm32fxx_hal_eth.h	132;"	d
+IS_ETH_PHY_ADDRESS	STM32Fxx/stm32fxx_hal_eth.h	62;"	d
+IS_ETH_PMT_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	274;"	d
+IS_ETH_PROMISCUOUS_MODE	STM32Fxx/stm32fxx_hal_eth.h	123;"	d
+IS_ETH_RECEIVE_ALL	STM32Fxx/stm32fxx_hal_eth.h	111;"	d
+IS_ETH_RECEIVE_FLOWCONTROL	STM32Fxx/stm32fxx_hal_eth.h	141;"	d
+IS_ETH_RECEIVE_OWN	STM32Fxx/stm32fxx_hal_eth.h	95;"	d
+IS_ETH_RECEIVE_STORE_FORWARD	STM32Fxx/stm32fxx_hal_eth.h	165;"	d
+IS_ETH_RECEIVE_THRESHOLD_CONTROL	STM32Fxx/stm32fxx_hal_eth.h	183;"	d
+IS_ETH_RETRY_TRANSMISSION	STM32Fxx/stm32fxx_hal_eth.h	101;"	d
+IS_ETH_RXDMA_BURST_LENGTH	STM32Fxx/stm32fxx_hal_eth.h	193;"	d
+IS_ETH_RX_MODE	STM32Fxx/stm32fxx_hal_eth.h	71;"	d
+IS_ETH_RX_MODE	STM32Fxx/stm32fxx_hal_eth.h	73;"	d
+IS_ETH_RX_MODE	STM32Fxx/stm32fxx_hal_eth.h	75;"	d
+IS_ETH_SECOND_FRAME_OPERATE	STM32Fxx/stm32fxx_hal_eth.h	187;"	d
+IS_ETH_SOURCE_ADDR_FILTER	STM32Fxx/stm32fxx_hal_eth.h	113;"	d
+IS_ETH_SPEED	STM32Fxx/stm32fxx_hal_eth.h	65;"	d
+IS_ETH_TRANSMIT_FLOWCONTROL	STM32Fxx/stm32fxx_hal_eth.h	143;"	d
+IS_ETH_TRANSMIT_STORE_FORWARD	STM32Fxx/stm32fxx_hal_eth.h	169;"	d
+IS_ETH_TRANSMIT_THRESHOLD_CONTROL	STM32Fxx/stm32fxx_hal_eth.h	171;"	d
+IS_ETH_TXDMA_BURST_LENGTH	STM32Fxx/stm32fxx_hal_eth.h	205;"	d
+IS_ETH_UNICAST_FRAMES_FILTER	STM32Fxx/stm32fxx_hal_eth.h	129;"	d
+IS_ETH_UNICAST_PAUSE_FRAME_DETECT	STM32Fxx/stm32fxx_hal_eth.h	139;"	d
+IS_ETH_VLAN_TAG_COMPARISON	STM32Fxx/stm32fxx_hal_eth.h	145;"	d
+IS_ETH_VLAN_TAG_IDENTIFIER	STM32Fxx/stm32fxx_hal_eth.h	147;"	d
+IS_ETH_WATCHDOG	STM32Fxx/stm32fxx_hal_eth.h	81;"	d
+IS_ETH_ZEROQUANTA_PAUSE	STM32Fxx/stm32fxx_hal_eth.h	133;"	d
+Init	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_InitTypeDef            Init;          \/*!< Ethernet Init Configuration *\/$/;"	m	struct:__anon7
+Instance	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_TypeDef                *Instance;     \/*!< Register base address       *\/$/;"	m	struct:__anon7
+InterFrameGap	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             InterFrameGap;             \/*!< Selects the minimum IFG between frames during transmission.$/;"	m	struct:__anon3
+Jabber	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             Jabber;                    \/*!< Selects or not Jabber timer$/;"	m	struct:__anon3
+LINKED_STATE_TIMEOUT_VALUE	STM32Fxx/stm32f4xx_hal_eth.c	128;"	d	file:
+LSRxDesc	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_DMADescTypeDef *LSRxDesc;          \/*!< Last Segment Rx Desc *\/$/;"	m	struct:__anon6
+LinkStatus	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t                   LinkStatus;    \/*!< Ethernet link status        *\/$/;"	m	struct:__anon7
+Lock	STM32Fxx/stm32fxx_hal_eth.h	/^  HAL_LockTypeDef            Lock;          \/*!< ETH Lock                    *\/$/;"	m	struct:__anon7
+LoopbackMode	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             LoopbackMode;              \/*!< Selects or not the internal MAC MII Loopback mode.$/;"	m	struct:__anon3
+MACAddr	STM32Fxx/stm32fxx_hal_eth.h	/^  uint8_t             *MACAddr;                   \/*!< MAC Address of used Hardware: must be pointer on an array of 6 bytes *\/$/;"	m	struct:__anon2
+MAC_FF_HMC	LPC18xx/NetworkInterface.c	80;"	d	file:
+MediaInterface	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             MediaInterface    ;               \/*!< Selects the media-independent interface or the reduced media-independent interface.$/;"	m	struct:__anon2
+MulticastFramesFilter	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             MulticastFramesFilter;     \/*!< Selects the Multicast Frames filter mode: None\/HashTableFilter\/PerfectFilter\/PerfectHashTableFilter.$/;"	m	struct:__anon3
+NETWORK_IRQHandler	LPC18xx/NetworkInterface.c	/^void NETWORK_IRQHandler( void )$/;"	f
+PHYCR_MDIX_EN	Common/phyHandling.c	91;"	d	file:
+PHYCR_MDIX_FORCE	Common/phyHandling.c	92;"	d	file:
+PHYHANDLING_H	include/phyHandling.h	37;"	d
+PHYREG_10_PHYSTS	Common/phyHandling.c	78;"	d	file:
+PHY_DUPLEX_AUTO	include/phyHandling.h	99;"	d
+PHY_DUPLEX_FULL	include/phyHandling.h	98;"	d
+PHY_DUPLEX_HALF	include/phyHandling.h	97;"	d
+PHY_ID_DP83848I	include/phyHandling.h	112;"	d
+PHY_ID_KSZ8041	include/phyHandling.h	105;"	d
+PHY_ID_KSZ8051	include/phyHandling.h	106;"	d
+PHY_ID_KSZ8081	include/phyHandling.h	107;"	d
+PHY_ID_KSZ8081MNXIA	include/phyHandling.h	110;"	d
+PHY_ID_KSZ8863	include/phyHandling.h	109;"	d
+PHY_ID_LAN8720	include/phyHandling.h	103;"	d
+PHY_ID_LAN8742A	include/phyHandling.h	102;"	d
+PHY_LS_HIGH_CHECK_TIME_MS	LPC18xx/NetworkInterface.c	54;"	d	file:
+PHY_LS_LOW_CHECK_TIME_MS	LPC18xx/NetworkInterface.c	59;"	d	file:
+PHY_MDIX_AUTO	include/phyHandling.h	94;"	d
+PHY_MDIX_CROSSED	include/phyHandling.h	93;"	d
+PHY_MDIX_DIRECT	include/phyHandling.h	92;"	d
+PHY_SPEED_10	include/phyHandling.h	87;"	d
+PHY_SPEED_100	include/phyHandling.h	88;"	d
+PHY_SPEED_AUTO	include/phyHandling.h	89;"	d
+PassControlFrames	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             PassControlFrames;         \/*!< Sets the forwarding mode of the control frames (including unicast and multicast PAUSE frames)$/;"	m	struct:__anon3
+PauseLowThreshold	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             PauseLowThreshold;         \/*!< This field configures the threshold of the PAUSE to be checked for$/;"	m	struct:__anon3
+PauseTime	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             PauseTime;                 \/*!< This field holds the value to be used in the Pause Time field in the transmit control frame.$/;"	m	struct:__anon3
+PhyAddress	STM32Fxx/stm32fxx_hal_eth.h	/^  uint16_t             PhyAddress;                \/*!< Ethernet PHY address.$/;"	m	struct:__anon2
+PhyProperties_t	include/phyHandling.h	/^} PhyProperties_t;$/;"	t	typeref:struct:xPhyProperties
+PromiscuousMode	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             PromiscuousMode;           \/*!< Selects or not the Promiscuous Mode$/;"	m	struct:__anon3
+ReceiveAll	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ReceiveAll;                \/*!< Selects or not all frames reception by the MAC (No filtering).$/;"	m	struct:__anon3
+ReceiveFlowControl	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ReceiveFlowControl;        \/*!< Enables or disables the MAC to decode the received Pause frame and$/;"	m	struct:__anon3
+ReceiveOwn	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ReceiveOwn;                \/*!< Selects or not the ReceiveOwn,$/;"	m	struct:__anon3
+ReceiveStoreForward	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ReceiveStoreForward;         \/*!< Enables or disables the Receive store and forward mode.$/;"	m	struct:__anon4
+ReceiveThresholdControl	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ReceiveThresholdControl;     \/*!< Selects the threshold level of the Receive FIFO.$/;"	m	struct:__anon4
+Reserved1	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   Reserved1;             \/*!< Reserved *\/$/;"	m	struct:__anon5
+RetryTransmission	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             RetryTransmission;         \/*!< Selects or not the MAC attempt retries transmission, based on the settings of BL,$/;"	m	struct:__anon3
+RxDMABurstLength	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             RxDMABurstLength;            \/*!< Indicates the maximum number of beats to be transferred in one Rx DMA transaction.$/;"	m	struct:__anon4
+RxDesc	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_DMADescTypeDef         *RxDesc;       \/*!< Rx descriptor to Get        *\/$/;"	m	struct:__anon7
+RxFrameInfos	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_DMARxFrameInfos        RxFrameInfos;  \/*!< last Rx frame infos         *\/$/;"	m	struct:__anon7
+RxMode	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             RxMode;                    \/*!< Selects the Ethernet Rx mode: Polling mode, Interrupt mode.$/;"	m	struct:__anon2
+STM32_STAT_INC	STM32Fxx/stm32f4xx_hal_eth.c	726;"	d	file:
+STM32_STAT_INC	STM32Fxx/stm32f4xx_hal_eth.c	729;"	d	file:
+SecondFrameOperate	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             SecondFrameOperate;          \/*!< Selects or not the Operate on second frame mode, which allows the DMA to process a second$/;"	m	struct:__anon4
+SegCount	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t  SegCount;                    \/*!< Segment count *\/$/;"	m	struct:__anon6
+SourceAddrFilter	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             SourceAddrFilter;          \/*!< Selects the Source Address Filter mode.$/;"	m	struct:__anon3
+Speed	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             Speed;                     \/*!< Sets the Ethernet speed: 10\/100 Mbps.$/;"	m	struct:__anon2
+State	STM32Fxx/stm32fxx_hal_eth.h	/^  __IO HAL_ETH_StateTypeDef  State;         \/*!< ETH communication state     *\/$/;"	m	struct:__anon7
+Status	STM32Fxx/stm32fxx_hal_eth.h	/^  __IO uint32_t   Status;           \/*!< Status *\/$/;"	m	struct:__anon5
+TimeStampHigh	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   TimeStampHigh;         \/*!< Time Stamp High value for transmit and receive *\/$/;"	m	struct:__anon5
+TimeStampLow	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t   TimeStampLow;          \/*!< Time Stamp Low value for transmit and receive *\/$/;"	m	struct:__anon5
+TransmitFlowControl	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             TransmitFlowControl;       \/*!< Enables or disables the MAC to transmit Pause frames (Full-Duplex mode)$/;"	m	struct:__anon3
+TransmitStoreForward	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             TransmitStoreForward;        \/*!< Enables or disables Transmit store and forward mode.$/;"	m	struct:__anon4
+TransmitThresholdControl	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             TransmitThresholdControl;    \/*!< Selects or not the Transmit Threshold Control.$/;"	m	struct:__anon4
+TxDMABurstLength	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             TxDMABurstLength;            \/*!< Indicates the maximum number of beats to be transferred in one Tx DMA transaction.$/;"	m	struct:__anon4
+TxDesc	STM32Fxx/stm32fxx_hal_eth.h	/^  ETH_DMADescTypeDef         *TxDesc;       \/*!< Tx descriptor to Set        *\/$/;"	m	struct:__anon7
+UnicastFramesFilter	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             UnicastFramesFilter;       \/*!< Selects the Unicast Frames filter mode: HashTableFilter\/PerfectFilter\/PerfectHashTableFilter.$/;"	m	struct:__anon3
+UnicastPauseFrameDetect	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             UnicastPauseFrameDetect;   \/*!< Selects or not the MAC detection of the Pause frames (with MAC Address0$/;"	m	struct:__anon3
+VLANTagComparison	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             VLANTagComparison;         \/*!< Selects the 12-bit VLAN identifier or the complete 16-bit VLAN tag for$/;"	m	struct:__anon3
+VLANTagIdentifier	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             VLANTagIdentifier;         \/*!< Holds the VLAN tag identifier for receive frames *\/$/;"	m	struct:__anon3
+Watchdog	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             Watchdog;                  \/*!< Selects or not the Watchdog timer$/;"	m	struct:__anon3
+ZeroQuantaPause	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t             ZeroQuantaPause;           \/*!< Selects or not the automatic generation of Zero-Quanta Pause Control frames.$/;"	m	struct:__anon3
+__ALIGN_END	STM32Fxx/NetworkInterface.c	/^	__ALIGN_BEGIN uint8_t Rx_Buff[ ETH_RXBUFNB ][ ETH_RX_BUF_SIZE ] __ALIGN_END;$/;"	v
+__ALIGN_END	STM32Fxx/NetworkInterface.c	/^	__ALIGN_BEGIN uint8_t Tx_Buff[ ETH_TXBUFNB ][ ETH_TX_BUF_SIZE ] __ALIGN_END;$/;"	v
+__HAL_ETH_BACK_PRESSURE_ACTIVATION_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1799;"	d
+__HAL_ETH_BACK_PRESSURE_ACTIVATION_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1792;"	d
+__HAL_ETH_DMARXDESC_DISABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1671;"	d
+__HAL_ETH_DMARXDESC_ENABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1664;"	d
+__HAL_ETH_DMARXDESC_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	1657;"	d
+__HAL_ETH_DMARXDESC_SET_OWN_BIT	STM32Fxx/stm32fxx_hal_eth.h	1678;"	d
+__HAL_ETH_DMATXDESC_CHECKSUM_INSERTION	STM32Fxx/stm32fxx_hal_eth.h	1719;"	d
+__HAL_ETH_DMATXDESC_CRC_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1733;"	d
+__HAL_ETH_DMATXDESC_CRC_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1726;"	d
+__HAL_ETH_DMATXDESC_DISABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1706;"	d
+__HAL_ETH_DMATXDESC_ENABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1699;"	d
+__HAL_ETH_DMATXDESC_GET_COLLISION_COUNT	STM32Fxx/stm32fxx_hal_eth.h	1685;"	d
+__HAL_ETH_DMATXDESC_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	1649;"	d
+__HAL_ETH_DMATXDESC_SET_OWN_BIT	STM32Fxx/stm32fxx_hal_eth.h	1692;"	d
+__HAL_ETH_DMATXDESC_SHORT_FRAME_PADDING_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1747;"	d
+__HAL_ETH_DMATXDESC_SHORT_FRAME_PADDING_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1740;"	d
+__HAL_ETH_DMA_CLEAR_FLAG	STM32Fxx/stm32fxx_hal_eth.h	1855;"	d
+__HAL_ETH_DMA_CLEAR_IT	STM32Fxx/stm32fxx_hal_eth.h	1839;"	d
+__HAL_ETH_DMA_DISABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1831;"	d
+__HAL_ETH_DMA_ENABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1822;"	d
+__HAL_ETH_DMA_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	1847;"	d
+__HAL_ETH_ETH_MMC_COUNTER_ROLLOVER_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	2001;"	d
+__HAL_ETH_ETH_MMC_COUNTER_ROLLOVER_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1994;"	d
+__HAL_ETH_ETH_MMC_RESET_ONREAD_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1987;"	d
+__HAL_ETH_ETH_MMC_RESET_ONREAD_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1980;"	d
+__HAL_ETH_GET_DMA_OVERFLOW_STATUS	STM32Fxx/stm32fxx_hal_eth.h	1866;"	d
+__HAL_ETH_GET_FLOW_CONTROL_BUSY_STATUS	STM32Fxx/stm32fxx_hal_eth.h	1785;"	d
+__HAL_ETH_GET_PMT_FLAG_STATUS	STM32Fxx/stm32fxx_hal_eth.h	1944;"	d
+__HAL_ETH_GLOBAL_UNICAST_WAKEUP_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1890;"	d
+__HAL_ETH_GLOBAL_UNICAST_WAKEUP_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1882;"	d
+__HAL_ETH_INITIATE_PAUSE_CONTROL_FRAME	STM32Fxx/stm32fxx_hal_eth.h	1778;"	d
+__HAL_ETH_MAC_DISABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1771;"	d
+__HAL_ETH_MAC_ENABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	1759;"	d
+__HAL_ETH_MAC_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	1813;"	d
+__HAL_ETH_MAGIC_PACKET_DETECTION_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1918;"	d
+__HAL_ETH_MAGIC_PACKET_DETECTION_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1911;"	d
+__HAL_ETH_MMC_COUNTERS_RESET	STM32Fxx/stm32fxx_hal_eth.h	2008;"	d
+__HAL_ETH_MMC_COUNTER_FREEZE_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1973;"	d
+__HAL_ETH_MMC_COUNTER_FREEZE_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1966;"	d
+__HAL_ETH_MMC_COUNTER_FULL_PRESET	STM32Fxx/stm32fxx_hal_eth.h	1951;"	d
+__HAL_ETH_MMC_COUNTER_HALF_PRESET	STM32Fxx/stm32fxx_hal_eth.h	1958;"	d
+__HAL_ETH_MMC_RX_IT_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	2031;"	d
+__HAL_ETH_MMC_RX_IT_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	2020;"	d
+__HAL_ETH_MMC_TX_IT_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	2054;"	d
+__HAL_ETH_MMC_TX_IT_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	2042;"	d
+__HAL_ETH_POWER_DOWN_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1932;"	d
+__HAL_ETH_POWER_DOWN_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1925;"	d
+__HAL_ETH_RESET_HANDLE_STATE	STM32Fxx/stm32fxx_hal_eth.h	1641;"	d
+__HAL_ETH_SET_RECEIVE_WATCHDOG_TIMER	STM32Fxx/stm32fxx_hal_eth.h	1874;"	d
+__HAL_ETH_WAKEUP_EXTI_CLEAR_FLAG	STM32Fxx/stm32fxx_hal_eth.h	2090;"	d
+__HAL_ETH_WAKEUP_EXTI_DISABLE_EVENT	STM32Fxx/stm32fxx_hal_eth.h	2078;"	d
+__HAL_ETH_WAKEUP_EXTI_DISABLE_FALLINGRISING_TRIGGER	STM32Fxx/stm32fxx_hal_eth.h	2127;"	d
+__HAL_ETH_WAKEUP_EXTI_DISABLE_FALLING_EDGE_TRIGGER	STM32Fxx/stm32fxx_hal_eth.h	2114;"	d
+__HAL_ETH_WAKEUP_EXTI_DISABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	2066;"	d
+__HAL_ETH_WAKEUP_EXTI_DISABLE_RISING_EDGE_TRIGGER	STM32Fxx/stm32fxx_hal_eth.h	2102;"	d
+__HAL_ETH_WAKEUP_EXTI_ENABLE_EVENT	STM32Fxx/stm32fxx_hal_eth.h	2072;"	d
+__HAL_ETH_WAKEUP_EXTI_ENABLE_FALLINGRISING_TRIGGER	STM32Fxx/stm32fxx_hal_eth.h	2120;"	d
+__HAL_ETH_WAKEUP_EXTI_ENABLE_FALLING_EDGE_TRIGGER	STM32Fxx/stm32fxx_hal_eth.h	2108;"	d
+__HAL_ETH_WAKEUP_EXTI_ENABLE_IT	STM32Fxx/stm32fxx_hal_eth.h	2060;"	d
+__HAL_ETH_WAKEUP_EXTI_ENABLE_RISING_EDGE_TRIGGER	STM32Fxx/stm32fxx_hal_eth.h	2096;"	d
+__HAL_ETH_WAKEUP_EXTI_GENERATE_SWIT	STM32Fxx/stm32fxx_hal_eth.h	2134;"	d
+__HAL_ETH_WAKEUP_EXTI_GET_FLAG	STM32Fxx/stm32fxx_hal_eth.h	2084;"	d
+__HAL_ETH_WAKEUP_FRAME_DETECTION_DISABLE	STM32Fxx/stm32fxx_hal_eth.h	1904;"	d
+__HAL_ETH_WAKEUP_FRAME_DETECTION_ENABLE	STM32Fxx/stm32fxx_hal_eth.h	1897;"	d
+__STM32F2xx_HAL_ETH_H	STM32Fxx/stm32fxx_hal_eth.h	43;"	d
+__STM32F4xx_HAL_ETH_H	STM32Fxx/stm32fxx_hal_eth.h	44;"	d
+__STM32F7xx_HAL_ETH_H	STM32Fxx/stm32fxx_hal_eth.h	45;"	d
+__STM32Fxx_HAL_ETH_H	STM32Fxx/stm32fxx_hal_eth.h	40;"	d
+__STM32_HAL_LEGACY	STM32Fxx/NetworkInterface.c	51;"	d	file:
+__STM32_HAL_LEGACY	STM32Fxx/stm32fxx_hal_eth.c	102;"	d	file:
+buffer	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t buffer;                       \/*!< Frame buffer *\/$/;"	m	struct:__anon6
+configEMAC_TASK_STACK_SIZE	STM32Fxx/NetworkInterface.c	123;"	d	file:
+configEMAC_TASK_STACK_SIZE	XMC4500/NetworkInterface.c	54;"	d	file:
+configPLACE_IN_SECTION_RAM	LPC18xx/NetworkInterface.c	136;"	d	file:
+configUSE_RMII	LPC18xx/NetworkInterface.c	63;"	d	file:
+fnPhyRead	include/phyHandling.h	/^	xApplicationPhyReadHook_t fnPhyRead;$/;"	m	struct:xEthernetPhy
+fnPhyWrite	include/phyHandling.h	/^	xApplicationPhyWriteHook_t fnPhyWrite;$/;"	m	struct:xEthernetPhy
+int_count	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile int rx_count, tx_count, int_count;$/;"	v
+int_counts	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile int int_counts[32];$/;"	v
+ipCONSIDER_FRAME_FOR_PROCESSING	LPC17xx/NetworkInterface.c	51;"	d	file:
+ipCONSIDER_FRAME_FOR_PROCESSING	LPC17xx/NetworkInterface.c	53;"	d	file:
+ipCONSIDER_FRAME_FOR_PROCESSING	LPC18xx/NetworkInterface.c	126;"	d	file:
+ipCONSIDER_FRAME_FOR_PROCESSING	LPC18xx/NetworkInterface.c	128;"	d	file:
+ipFRAGMENT_OFFSET_BIT_MASK	STM32Fxx/NetworkInterface.c	83;"	d	file:
+ipconfigETHERNET_AN_ENABLE	STM32Fxx/NetworkInterface.c	94;"	d	file:
+ipconfigETHERNET_AUTO_CROSS_ENABLE	STM32Fxx/NetworkInterface.c	98;"	d	file:
+ipconfigETHERNET_CROSSED_LINK	STM32Fxx/NetworkInterface.c	107;"	d	file:
+ipconfigETHERNET_USE_100MB	STM32Fxx/NetworkInterface.c	111;"	d	file:
+ipconfigETHERNET_USE_FULL_DUPLEX	STM32Fxx/NetworkInterface.c	115;"	d	file:
+ipconfigPHY_LS_HIGH_CHECK_TIME_MS	Common/phyHandling.c	62;"	d	file:
+ipconfigPHY_LS_LOW_CHECK_TIME_MS	Common/phyHandling.c	67;"	d	file:
+ipconfigPHY_MAX_PORTS	include/phyHandling.h	46;"	d
+ipconfigUSE_RMII	STM32Fxx/NetworkInterface.c	130;"	d	file:
+ipconfigUSE_RMII	STM32Fxx/NetworkInterface.c	132;"	d	file:
+iptraceEMAC_TASK_STARTING	LPC18xx/NetworkInterface.c	84;"	d	file:
+length	STM32Fxx/stm32fxx_hal_eth.h	/^  uint32_t length;                       \/*!< Frame length *\/$/;"	m	struct:__anon6
+niBUFFER_1_PACKET_SIZE	LPC18xx/NetworkInterface.c	335;"	d	file:
+niBUFFER_1_PACKET_SIZE	STM32Fxx/NetworkInterface.c	1067;"	d	file:
+niBUFFER_1_PACKET_SIZE	XMC4500/NetworkInterface.c	707;"	d	file:
+niEMAC_HANDLER_TASK_PRIORITY	STM32Fxx/NetworkInterface.c	80;"	d	file:
+niINTERRUPT_QUEUE_LENGTH	LPC17xx/NetworkInterface.c	65;"	d	file:
+niMAX_TX_ATTEMPTS	LPC17xx/NetworkInterface.c	61;"	d	file:
+niTX_BUFFER_FREE_WAIT	LPC17xx/NetworkInterface.c	60;"	d	file:
+nwDMA_INTERRUPT_MASK	LPC18xx/NetworkInterface.c	100;"	d	file:
+nwRX_STATUS_ERROR_BITS	LPC18xx/NetworkInterface.c	88;"	d	file:
+nwRX_TASK_STACK_SIZE	LPC18xx/NetworkInterface.c	49;"	d	file:
+phyADVERTISE_100FULL	Common/phyHandling.c	120;"	d	file:
+phyADVERTISE_100HALF	Common/phyHandling.c	119;"	d	file:
+phyADVERTISE_10FULL	Common/phyHandling.c	118;"	d	file:
+phyADVERTISE_10HALF	Common/phyHandling.c	117;"	d	file:
+phyADVERTISE_ALL	Common/phyHandling.c	122;"	d	file:
+phyADVERTISE_CSMA	Common/phyHandling.c	116;"	d	file:
+phyBMCR_AN_ENABLE	Common/phyHandling.c	86;"	d	file:
+phyBMCR_AN_RESTART	Common/phyHandling.c	84;"	d	file:
+phyBMCR_FULL_DUPLEX	Common/phyHandling.c	83;"	d	file:
+phyBMCR_ISOLATE	Common/phyHandling.c	85;"	d	file:
+phyBMCR_RESET	Common/phyHandling.c	88;"	d	file:
+phyBMCR_SPEED_100	Common/phyHandling.c	87;"	d	file:
+phyBMSR_AN_COMPLETE	Common/phyHandling.c	94;"	d	file:
+phyBMSR_LINK_STATUS	Common/phyHandling.c	96;"	d	file:
+phyMAX_PHY_ADDRESS	Common/phyHandling.c	53;"	d	file:
+phyMIN_PHY_ADDRESS	Common/phyHandling.c	52;"	d	file:
+phyPHYSPCS_FULL_DUPLEX	Common/phyHandling.c	110;"	d	file:
+phyPHYSPCS_SPEED_10	Common/phyHandling.c	109;"	d	file:
+phyPHYSPCS_SPEED_MASK	Common/phyHandling.c	108;"	d	file:
+phyPHYSTS_DUPLEX_STATUS	Common/phyHandling.c	100;"	d	file:
+phyPHYSTS_LINK_STATUS	Common/phyHandling.c	98;"	d	file:
+phyPHYSTS_SPEED_STATUS	Common/phyHandling.c	99;"	d	file:
+phyREG_00_BMCR	Common/phyHandling.c	71;"	d	file:
+phyREG_01_BMSR	Common/phyHandling.c	72;"	d	file:
+phyREG_02_PHYSID1	Common/phyHandling.c	73;"	d	file:
+phyREG_03_PHYSID2	Common/phyHandling.c	74;"	d	file:
+phyREG_04_ADVERTISE	Common/phyHandling.c	75;"	d	file:
+phyREG_19_PHYCR	Common/phyHandling.c	79;"	d	file:
+phyREG_1F_PHYSPCS	Common/phyHandling.c	80;"	d	file:
+prvAddMACAddress	LPC18xx/NetworkInterface.c	/^static void prvAddMACAddress( const uint8_t* ucMacAddress )$/;"	f	file:
+prvDMARxDescListInit	STM32Fxx/NetworkInterface.c	/^static void prvDMARxDescListInit()$/;"	f	file:
+prvDMATxDescListInit	STM32Fxx/NetworkInterface.c	/^static void prvDMATxDescListInit()$/;"	f	file:
+prvDelay	LPC18xx/NetworkInterface.c	/^static void prvDelay( uint32_t ulMilliSeconds )$/;"	f	file:
+prvEMACHandlerTask	LPC17xx/NetworkInterface.c	/^static void prvEMACHandlerTask( void *pvParameters )$/;"	f	file:
+prvEMACHandlerTask	LPC18xx/NetworkInterface.c	/^static void prvEMACHandlerTask( void *pvParameters )$/;"	f	file:
+prvEMACHandlerTask	STM32Fxx/NetworkInterface.c	/^static void prvEMACHandlerTask( void *pvParameters )$/;"	f	file:
+prvEMACHandlerTask	XMC4500/NetworkInterface.c	/^static void prvEMACHandlerTask( void *pvParameters )$/;"	f	file:
+prvEthernetUpdateConfig	STM32Fxx/NetworkInterface.c	/^static void prvEthernetUpdateConfig( BaseType_t xForce )$/;"	f	file:
+prvEthernetUpdateConfig	XMC4500/NetworkInterface.c	/^static void prvEthernetUpdateConfig( BaseType_t xForce )$/;"	f	file:
+prvGenerateCRC32	LPC18xx/NetworkInterface.c	/^static uint32_t prvGenerateCRC32( const uint8_t *ucAddress )$/;"	f	file:
+prvGetHashIndex	LPC18xx/NetworkInterface.c	/^static uint32_t prvGetHashIndex( const uint8_t *ucAddress )$/;"	f	file:
+prvMACAddressConfig	STM32Fxx/NetworkInterface.c	/^static void prvMACAddressConfig(ETH_HandleTypeDef *heth, uint32_t ulIndex, uint8_t *Addr)$/;"	f	file:
+prvNetworkInterfaceInput	LPC18xx/NetworkInterface.c	/^static BaseType_t prvNetworkInterfaceInput()$/;"	f	file:
+prvNetworkInterfaceInput	STM32Fxx/NetworkInterface.c	/^static BaseType_t prvNetworkInterfaceInput( void )$/;"	f	file:
+prvNetworkInterfaceInput	XMC4500/NetworkInterface.c	/^static BaseType_t prvNetworkInterfaceInput( void )$/;"	f	file:
+prvRemoveTrailingBytes	LPC18xx/NetworkInterface.c	/^static void prvRemoveTrailingBytes( NetworkBufferDescriptor_t *pxDescriptor )$/;"	f	file:
+prvSetLinkSpeed	LPC18xx/NetworkInterface.c	/^static BaseType_t prvSetLinkSpeed( void )$/;"	f	file:
+prvSetupRxDescriptors	LPC18xx/NetworkInterface.c	/^static void prvSetupRxDescriptors( void )$/;"	f	file:
+prvSetupTxDescriptors	LPC18xx/NetworkInterface.c	/^static void prvSetupTxDescriptors( void )$/;"	f	file:
+prvWriteDMAOMR	STM32Fxx/stm32f4xx_hal_eth.c	/^static void prvWriteDMAOMR( ETH_HandleTypeDef *heth, uint32_t ulValue)$/;"	f	file:
+prvWriteDMAOMR	STM32Fxx/stm32fxx_hal_eth.c	/^static void prvWriteDMAOMR( ETH_HandleTypeDef *heth, uint32_t ulValue)$/;"	f	file:
+prvWriteMACCR	STM32Fxx/stm32f4xx_hal_eth.c	/^static void prvWriteMACCR( ETH_HandleTypeDef *heth, uint32_t ulValue)$/;"	f	file:
+prvWriteMACCR	STM32Fxx/stm32fxx_hal_eth.c	/^static void prvWriteMACCR( ETH_HandleTypeDef *heth, uint32_t ulValue)$/;"	f	file:
+prvWriteMACFCR	STM32Fxx/stm32f4xx_hal_eth.c	/^static void prvWriteMACFCR( ETH_HandleTypeDef *heth, uint32_t ulValue)$/;"	f	file:
+prvWriteMACFCR	STM32Fxx/stm32fxx_hal_eth.c	/^static void prvWriteMACFCR( ETH_HandleTypeDef *heth, uint32_t ulValue)$/;"	f	file:
+rx_count	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile int rx_count, tx_count, int_count;$/;"	v
+sr_head	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile int sr_head;$/;"	v
+sr_history	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile unsigned sr_history[32];$/;"	v
+stm_is_F2	STM32Fxx/stm32fxx_hal_eth.c	115;"	d	file:
+stm_is_F4	STM32Fxx/stm32fxx_hal_eth.c	111;"	d	file:
+stm_is_F7	STM32Fxx/stm32fxx_hal_eth.c	107;"	d	file:
+tx_count	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile int rx_count, tx_count, int_count;$/;"	v
+tx_status	STM32Fxx/stm32f4xx_hal_eth.c	/^	volatile int tx_status[8];$/;"	v
+ucDuplex	include/phyHandling.h	/^	uint8_t ucDuplex;$/;"	m	struct:xPhyProperties
+ucMDI_X	include/phyHandling.h	/^	uint8_t ucMDI_X;		\/* MDI-X : Medium Dependent Interface - Crossover *\/$/;"	m	struct:xPhyProperties
+ucNetworkPackets	LPC18xx/NetworkInterface.c	/^static __attribute__ ((section("._ramAHB32"))) uint8_t ucNetworkPackets[ ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS * niBUFFER_1_PACKET_SIZE ] __attribute__ ( ( aligned( 32 ) ) );$/;"	v	file:
+ucPhyIndexes	include/phyHandling.h	/^	uint8_t ucPhyIndexes[ ipconfigPHY_MAX_PORTS ];$/;"	m	struct:xEthernetPhy
+ucSpare	include/phyHandling.h	/^	uint8_t ucSpare;$/;"	m	struct:xPhyProperties
+ucSpeed	include/phyHandling.h	/^	uint8_t ucSpeed;$/;"	m	struct:xPhyProperties
+ulACRValue	include/phyHandling.h	/^	uint32_t ulACRValue;$/;"	m	struct:xEthernetPhy
+ulBCRValue	include/phyHandling.h	/^	uint32_t ulBCRValue;$/;"	m	struct:xEthernetPhy
+ulDataAvailable	LPC18xx/NetworkInterface.c	/^uint32_t ulDataAvailable;$/;"	v
+ulISREvents	LPC18xx/NetworkInterface.c	/^static volatile uint32_t ulISREvents;$/;"	v	file:
+ulISREvents	STM32Fxx/NetworkInterface.c	/^static volatile uint32_t ulISREvents;$/;"	v	file:
+ulISREvents	XMC4500/NetworkInterface.c	/^static volatile uint32_t ulISREvents;$/;"	v	file:
+ulLinkStatusMask	include/phyHandling.h	/^	uint32_t ulLinkStatusMask;$/;"	m	struct:xEthernetPhy
+ulNextFreeTxDescriptor	LPC18xx/NetworkInterface.c	/^static volatile uint32_t ulNextFreeTxDescriptor;$/;"	v	file:
+ulNextRxDescriptorToProcess	LPC18xx/NetworkInterface.c	/^static uint32_t ulNextRxDescriptorToProcess;$/;"	v	file:
+ulPHYLinkStatus	LPC18xx/NetworkInterface.c	/^static uint32_t ulPHYLinkStatus = 0;$/;"	v	file:
+ulPhyIDs	include/phyHandling.h	/^	uint32_t ulPhyIDs[ ipconfigPHY_MAX_PORTS ];$/;"	m	struct:xEthernetPhy
+ulTxDescriptorToClear	LPC18xx/NetworkInterface.c	/^static uint32_t ulTxDescriptorToClear;$/;"	v	file:
+vClearTXBuffers	LPC18xx/NetworkInterface.c	/^static void vClearTXBuffers()$/;"	f	file:
+vClearTXBuffers	STM32Fxx/NetworkInterface.c	/^	static void vClearTXBuffers()$/;"	f	file:
+vMACBProbePhy	STM32Fxx/NetworkInterface.c	/^void vMACBProbePhy( void )$/;"	f
+vMACBProbePhy	XMC4500/NetworkInterface.c	/^void vMACBProbePhy( void )$/;"	f
+vNetworkInterfaceAllocateRAMToBuffers	LPC18xx/NetworkInterface.c	/^void vNetworkInterfaceAllocateRAMToBuffers( NetworkBufferDescriptor_t pxNetworkBuffers[ ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS ] )$/;"	f
+vNetworkInterfaceAllocateRAMToBuffers	STM32Fxx/NetworkInterface.c	/^void vNetworkInterfaceAllocateRAMToBuffers( NetworkBufferDescriptor_t pxNetworkBuffers[ ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS ] )$/;"	f
+vNetworkInterfaceAllocateRAMToBuffers	XMC4500/NetworkInterface.c	/^void vNetworkInterfaceAllocateRAMToBuffers( NetworkBufferDescriptor_t pxNetworkBuffers[ ipconfigNUM_NETWORK_BUFFER_DESCRIPTORS ] )$/;"	f
+vPhyInitialise	Common/phyHandling.c	/^void vPhyInitialise( EthernetPhy_t *pxPhyObject, xApplicationPhyReadHook_t fnPhyRead, xApplicationPhyWriteHook_t fnPhyWrite )$/;"	f
+xApplicationPhyReadHook_t	include/phyHandling.h	/^typedef BaseType_t ( *xApplicationPhyReadHook_t )( BaseType_t xAddress, BaseType_t xRegister, uint32_t *pulValue );$/;"	t
+xApplicationPhyWriteHook_t	include/phyHandling.h	/^typedef BaseType_t ( *xApplicationPhyWriteHook_t )( BaseType_t xAddress, BaseType_t xRegister, uint32_t ulValue );$/;"	t
+xDMARxDescriptors	LPC18xx/NetworkInterface.c	/^static ENET_ENHRXDESC_T xDMARxDescriptors[ configNUM_RX_DESCRIPTORS ];$/;"	v	file:
+xDMATxDescriptors	LPC18xx/NetworkInterface.c	/^static ENET_ENHTXDESC_T xDMATxDescriptors[ configNUM_TX_DESCRIPTORS ];$/;"	v	file:
+xEMACRxEventSemaphore	LPC17xx/NetworkInterface.c	/^static SemaphoreHandle_t xEMACRxEventSemaphore = NULL;$/;"	v	file:
+xEMACTaskHandle	STM32Fxx/NetworkInterface.c	/^static TaskHandle_t xEMACTaskHandle = NULL;$/;"	v	file:
+xEMACTaskHandle	XMC4500/NetworkInterface.c	/^static TaskHandle_t xEMACTaskHandle = NULL;$/;"	v	file:
+xETH	STM32Fxx/NetworkInterface.c	/^static ETH_HandleTypeDef xETH;$/;"	v	file:
+xEthernetPhy	include/phyHandling.h	/^typedef struct xEthernetPhy$/;"	s
+xGetPhyLinkStatus	LPC18xx/NetworkInterface.c	/^BaseType_t xGetPhyLinkStatus( void )$/;"	f
+xGetPhyLinkStatus	STM32Fxx/NetworkInterface.c	/^BaseType_t xGetPhyLinkStatus( void )$/;"	f
+xGetPhyLinkStatus	XMC4500/NetworkInterface.c	/^BaseType_t xGetPhyLinkStatus( void )$/;"	f
+xHas_19_PHYCR	Common/phyHandling.c	/^static BaseType_t xHas_19_PHYCR( uint32_t ulPhyID )$/;"	f	file:
+xHas_1F_PHYSPCS	Common/phyHandling.c	/^static BaseType_t xHas_1F_PHYSPCS( uint32_t ulPhyID )$/;"	f	file:
+xLLMNR_MACAddress	LPC18xx/NetworkInterface.c	/^	static const uint8_t xLLMNR_MACAddress[] = { '\\x01', '\\x00', '\\x5E', '\\x00', '\\x00', '\\xFC' };$/;"	v	file:
+xLLMNR_MACAddress	STM32Fxx/NetworkInterface.c	/^	static const uint8_t xLLMNR_MACAddress[] = { 0x01, 0x00, 0x5E, 0x00, 0x00, 0xFC };$/;"	v	file:
+xLLMNR_MACAddress	XMC4500/NetworkInterface.c	/^	static const uint8_t xLLMNR_MACAddress[] = { 0x01, 0x00, 0x5E, 0x00, 0x00, 0xFC };$/;"	v	file:
+xLinkStatusRemaining	include/phyHandling.h	/^	TickType_t xLinkStatusRemaining;$/;"	m	struct:xEthernetPhy
+xLinkStatusTimer	include/phyHandling.h	/^	TimeOut_t xLinkStatusTimer;$/;"	m	struct:xEthernetPhy
+xMayAcceptPacket	STM32Fxx/NetworkInterface.c	/^static BaseType_t xMayAcceptPacket( uint8_t *pcBuffer )$/;"	f	file:
+xMayAcceptPacket	XMC4500/NetworkInterface.c	/^static BaseType_t xMayAcceptPacket( uint8_t *pcBuffer )$/;"	f	file:
+xNetworkInterfaceInitialise	LPC17xx/NetworkInterface.c	/^BaseType_t xNetworkInterfaceInitialise( void )$/;"	f
+xNetworkInterfaceInitialise	LPC18xx/NetworkInterface.c	/^BaseType_t xNetworkInterfaceInitialise( void )$/;"	f
+xNetworkInterfaceInitialise	STM32Fxx/NetworkInterface.c	/^BaseType_t xNetworkInterfaceInitialise( void )$/;"	f
+xNetworkInterfaceInitialise	XMC4500/NetworkInterface.c	/^BaseType_t xNetworkInterfaceInitialise( void )$/;"	f
+xNetworkInterfaceOutput	LPC17xx/NetworkInterface.c	/^BaseType_t xNetworkInterfaceOutput( NetworkBufferDescriptor_t * const pxNetworkBuffer )$/;"	f
+xNetworkInterfaceOutput	LPC18xx/NetworkInterface.c	/^BaseType_t xNetworkInterfaceOutput( NetworkBufferDescriptor_t * const pxDescriptor, BaseType_t bReleaseAfterSend )$/;"	f
+xNetworkInterfaceOutput	STM32Fxx/NetworkInterface.c	/^BaseType_t xNetworkInterfaceOutput( NetworkBufferDescriptor_t * const pxDescriptor, BaseType_t bReleaseAfterSend )$/;"	f
+xNetworkInterfaceOutput	XMC4500/NetworkInterface.c	/^BaseType_t xNetworkInterfaceOutput( NetworkBufferDescriptor_t * const pxDescriptor, BaseType_t bReleaseAfterSend )$/;"	f
+xPHYProperties	STM32Fxx/NetworkInterface.c	/^const PhyProperties_t xPHYProperties =$/;"	v
+xPhyCheckLinkStatus	Common/phyHandling.c	/^BaseType_t xPhyCheckLinkStatus( EthernetPhy_t *pxPhyObject, BaseType_t xHadReception )$/;"	f
+xPhyConfigure	Common/phyHandling.c	/^BaseType_t xPhyConfigure( EthernetPhy_t *pxPhyObject, const PhyProperties_t *pxPhyProperties )$/;"	f
+xPhyDiscover	Common/phyHandling.c	/^BaseType_t xPhyDiscover( EthernetPhy_t *pxPhyObject )$/;"	f
+xPhyFixedValue	Common/phyHandling.c	/^BaseType_t xPhyFixedValue( EthernetPhy_t *pxPhyObject, uint32_t ulPhyMask )$/;"	f
+xPhyGetMask	include/phyHandling.h	/^static __inline uint32_t xPhyGetMask( EthernetPhy_t *pxPhyObject )$/;"	f
+xPhyObject	STM32Fxx/NetworkInterface.c	/^static EthernetPhy_t xPhyObject;$/;"	v	file:
+xPhyObject	XMC4500/NetworkInterface.c	/^static EthernetPhy_t xPhyObject;$/;"	v	file:
+xPhyPreferences	include/phyHandling.h	/^	PhyProperties_t xPhyPreferences;$/;"	m	struct:xEthernetPhy
+xPhyProperties	include/phyHandling.h	/^	PhyProperties_t xPhyProperties;$/;"	m	struct:xEthernetPhy
+xPhyProperties	include/phyHandling.h	/^typedef struct xPhyProperties$/;"	s
+xPhyReset	Common/phyHandling.c	/^static uint32_t xPhyReset( EthernetPhy_t *pxPhyObject, uint32_t ulPhyMask )$/;"	f	file:
+xPhyStartAutoNegotiation	Common/phyHandling.c	/^BaseType_t xPhyStartAutoNegotiation( EthernetPhy_t *pxPhyObject, uint32_t ulPhyMask )$/;"	f
+xPortCount	include/phyHandling.h	/^	BaseType_t xPortCount;$/;"	m	struct:xEthernetPhy
+xRxHanderTask	LPC18xx/NetworkInterface.c	/^static TaskHandle_t xRxHanderTask = NULL;$/;"	v	file:
+xSTM32_PhyRead	STM32Fxx/NetworkInterface.c	/^BaseType_t xSTM32_PhyRead( BaseType_t xAddress, BaseType_t xRegister, uint32_t *pulValue )$/;"	f
+xSTM32_PhyRead	XMC4500/NetworkInterface.c	/^BaseType_t xSTM32_PhyRead( BaseType_t xAddress, BaseType_t xRegister, uint32_t *pulValue )$/;"	f
+xSTM32_PhyWrite	STM32Fxx/NetworkInterface.c	/^BaseType_t xSTM32_PhyWrite( BaseType_t xAddress, BaseType_t xRegister, uint32_t ulValue )$/;"	f
+xSTM32_PhyWrite	XMC4500/NetworkInterface.c	/^BaseType_t xSTM32_PhyWrite( BaseType_t xAddress, BaseType_t xRegister, uint32_t ulValue )$/;"	f
+xTXDescriptorSemaphore	LPC18xx/NetworkInterface.c	/^static SemaphoreHandle_t xTXDescriptorSemaphore = NULL;$/;"	v	file:
+xTXDescriptorSemaphore	STM32Fxx/NetworkInterface.c	/^	static SemaphoreHandle_t xTXDescriptorSemaphore = NULL;$/;"	v	file:
+xTXDescriptorSemaphore	XMC4500/NetworkInterface.c	/^static SemaphoreHandle_t xTXDescriptorSemaphore = NULL;$/;"	v	file:
