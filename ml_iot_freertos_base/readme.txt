@@ -14,6 +14,7 @@ You can use it as a base for you project which uses ARM Cortex-M4F microcontroll
 It is portable on other microcontrollers (CM4F only) as well with some modifications.
 
 
+Client and server test python script (rough) is also available to test the network.
 You can find the Wireshark capture for performance of Server and client simultaneously running on XMC4500 CM4F @120MHz.
 
 
