@@ -1,18 +1,5 @@
 # Linux_4_ARM (XMC4500 Relax Kit, FreeRTOS w/Plus and more to come..)
-This repository contains projects on ARM processor in linux environemnt.
-
-
-#Demo project done in linux environment for ARM Cortex M4
-
-This demo project contains simple led blinking using Systick interrupt for every specific interval in C and C++ environment.
-I have used some specific compilation flags for demo build but you can change it according to your convinience and wish.
-
-
-#FreeRTOS TCP/IP over Ethernet on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
-This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMSIS NN for Neural Networks using C/C++ for Industrial and IoT applications.
-
-You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
-Client and server test python script (rough) is also available to test the network.
+This repository contains projects done on ARM processor in linux environemnt.
 
 
 ###################################################################################################################################
@@ -68,3 +55,17 @@ Commands are as follows:
 > q
 
 Using above steps you can load the hex file in microcontrollers memory and start the program.
+
+
+# Demo project done in linux environment for ARM Cortex M4F
+
+This demo project contains simple led blinking using Systick interrupt for every specific interval in C and C++ environment.
+I have used some specific compilation flags for demo build but you can change it according to your convinience and wish.
+
+
+# FreeRTOS TCP/IP over Ethernet on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
+This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMSIS NN for Neural Networks using C/C++ for Industrial and IoT applications.
+
+You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
+Client and server test python script (rough) is also available to test the network.
+
