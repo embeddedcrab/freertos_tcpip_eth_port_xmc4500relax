@@ -69,3 +69,8 @@ This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMS
 You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
 Client and server test python script (rough) is also available to test the network.
 
+
+# Drivers and API Migration from C to C++
+You can see this project if you want to know the strategies/design to be used to convecrt your C code into C++
+https://github.com/embeddedcrab/Drivers_API_C_CPP_Migration
+
