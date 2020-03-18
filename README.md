@@ -1,4 +1,4 @@
-# Linux_4_ARM (XMC4500 Relax Kit, FreeRTOS w/Plus, Drivers & API Conversion into C++ and more to come..)
+# Linux_4_ARM (XMC4500 Relax Kit, FreeRTOS w/Plus, Drivers & API Conversion into C++, Peripherals w/API and more to come..)
 This repository contains projects done on ARM processor in linux environemnt.
 
 
@@ -74,3 +74,5 @@ Client and server test python script (rough) is also available to test the netwo
 You can see this project if you want to know the strategies/design to be used to convecrt your C code into C++
 https://github.com/embeddedcrab/Drivers_API_C_CPP_Migration
 
+# Peripherals Usage
+You can see this project @ https://github.com/embeddedcrab/XMC4500_FreeRTOS/tree/master/XMC4500_FreeRTOS_Peripherals
