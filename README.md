@@ -64,15 +64,14 @@ I have used some specific compilation flags for demo build but you can change it
 
 
 # FreeRTOS TCP/IP over Ethernet on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
-This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMSIS NN for Neural Networks using C/C++ for Industrial and IoT applications.
+This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMSIS NN for Neural Networks(basics) using C/C++ for Industrial and IoT applications.
 
 You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
 Client and server test python script (rough) is also available to test the network.
 
 
-# Drivers and API Migration from C to C++
-You can see this project if you want to know the strategies/design to be used to convecrt your C code into C++
-https://github.com/embeddedcrab/Drivers_API_C_CPP_Migration
+Explore it, you will definitely like it.
 
-# Peripherals Usage
-You can see this project @ https://github.com/embeddedcrab/XMC4500_FreeRTOS/tree/master/XMC4500_FreeRTOS_Peripherals
+Happy to Help and Share 😊
+
+Cheers!!
