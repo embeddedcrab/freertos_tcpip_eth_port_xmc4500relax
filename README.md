@@ -1,4 +1,4 @@
-# Linux_4_ARM (XMC4500 Relax Kit, FreeRTOS w/Plus, Drivers & API Conversion into C++, Peripherals w/API and more to come..)
+## Linux_4_ARM (ARM Cortex-M4F, XMC4500 Relax Kit, FreeRTOS w/Freertos+Plus)
 This repository contains projects done on ARM processor in linux environemnt.
 
 
