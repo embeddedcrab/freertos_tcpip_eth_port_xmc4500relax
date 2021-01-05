@@ -1,5 +1,5 @@
 ## Linux_4_ARM (ARM Cortex-M4F, XMC4500 Relax Kit, FreeRTOS w/Freertos+Plus)
-This repository contains projects done on ARM processor in linux environemnt.
+This repository contains projects done on ARM processor in linux environemnt. You can scroll down to get more information.
 
 
 ###################################################################################################################################
@@ -63,7 +63,7 @@ This demo project contains simple led blinking using Systick interrupt for every
 I have used some specific compilation flags for demo build but you can change it according to your convinience and wish.
 
 
-# FreeRTOS TCP/IP over Ethernet on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
+# FreeRTOS TCP/IP over Ethernet Porintg on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
 This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMSIS NN for Neural Networks(basics) using C/C++ for Industrial and IoT applications.
 
 You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
