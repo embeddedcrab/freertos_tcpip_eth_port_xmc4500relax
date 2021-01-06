@@ -1,5 +1,24 @@
-## Linux_4_ARM (ARM Cortex-M4F, XMC4500 Relax Kit, FreeRTOS w/Freertos+Plus)
-This repository contains projects done on ARM processor in linux environemnt. You can scroll down to get more information.
+# (ARM Cortex-M4F, XMC4500 Relax Kit, FreeRTOS w/Freertos+Plus, Linux Environment)
+This repository contains projects done on ARM processor in linux environemnt.
+
+
+###################################################################################################################################
+
+## Project List ##
+
+### 1. Demo project done in linux environment for ARM Cortex M4F
+
+This demo project contains simple led blinking using Systick interrupt for every specific interval in C and C++ environment.
+I have used some specific compilation flags for demo build but you can change it according to your convinience and wish.
+
+
+### 2. FreeRTOS TCP/IP over Ethernet Porting on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
+It mainly focuses on FreeRTOS TCP/IP Server and Client application over Ethernet, CMSIS NN for Neural Networks(basics) using C/C++ for Industrial and IoT applications.
+
+Porting of FreeRTOS+Plus done on XCM4500 over ethernet with applications. You can take it as a reference if you are utilizing FreeRTOS Network stack in your application. It would not take you much time to port SW on another interface by using this.
+
+You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
+Client and server test python script (rough) is also available to test the network.
 
 
 ###################################################################################################################################
@@ -55,19 +74,6 @@ Commands are as follows:
 > q
 
 Using above steps you can load the hex file in microcontrollers memory and start the program.
-
-
-# Demo project done in linux environment for ARM Cortex M4F
-
-This demo project contains simple led blinking using Systick interrupt for every specific interval in C and C++ environment.
-I have used some specific compilation flags for demo build but you can change it according to your convinience and wish.
-
-
-# FreeRTOS TCP/IP over Ethernet Porting on XMC4500 Relax Kit for Industrial/Automotive/IoT applications
-This repo focuses mainly on FreeRTOS TCP/IP Server and Client over Ethernet, CMSIS NN for Neural Networks(basics) using C/C++ for Industrial and IoT applications.
-
-You can use it as a base for you project which uses ARM Cortex-M4F microcontroller utilizing FreeRTOS, FreeRTOS-Plus with C/C++.
-Client and server test python script (rough) is also available to test the network.
 
 
 Explore it, you will definitely like it.
